@@ -1,2 +1,5 @@
 # Ignore all sqlite files
 *.sqlite
+
+# Ignore databases folder
+Databases
