@@ -1,5 +1,7 @@
 # Ignore all sqlite files
 *.sqlite
+*.apikey
 
 # Ignore databases folder
 Databases
+

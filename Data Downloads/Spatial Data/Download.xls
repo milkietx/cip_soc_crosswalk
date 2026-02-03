@@ -1,0 +1,2488 @@
+
+		<table width="100%" border>
+			<tr>
+				<th>Institution Name</th>
+				<th>System Name</th>
+				<th>Address</th>
+				<th>City</th>
+				<th>Zip Code</th>
+				<th>Administrative Officer</th>
+				<th>Administrative Officer Title</th>
+				<th>Main<br>Telephone</th>
+				<th>Website Address</th>
+			</tr>
+			
+				<tr>
+					<td>Abilene Christian University</td>
+					<td></td>
+					<td>ACU Box 29100 
+					</td>
+					<td>Abilene</td>
+					<td>79699</td>
+					<td>Phil Schubert</td>
+					<td>President</td>
+					<td>(325) 674-2412</td>
+					<td><a href="http://www.acu.edu" title="www.acu.edu">www.acu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Alamo Community College - Northeast Lakeview College</td>
+					<td>Alamo Community College District</td>
+					<td>1201 Kitty Hawk Rd 
+					</td>
+					<td>Universal City</td>
+					<td>78148</td>
+					<td>Veronica Garcia</td>
+					<td>President</td>
+					<td>(210) 485-0000</td>
+					<td><a href="http://www.alamo.edu/nlc" title="www.alamo.edu/nlc">www.alamo.edu/nlc</a></td>
+				</tr>
+			
+				<tr>
+					<td>Alamo Community College - Northwest Vista College</td>
+					<td>Alamo Community College District</td>
+					<td>3535 North Ellison Drive 
+					</td>
+					<td>San Antonio</td>
+					<td>78251</td>
+					<td>Amy Bosley</td>
+					<td>President</td>
+					<td>(210) 486-4900</td>
+					<td><a href="http://www.alamo.edu/nvc" title="www.alamo.edu/nvc">www.alamo.edu/nvc</a></td>
+				</tr>
+			
+				<tr>
+					<td>Alamo Community College - Palo Alto College</td>
+					<td>Alamo Community College District</td>
+					<td>1400 West Villaret Boulevard 
+					</td>
+					<td>San Antonio</td>
+					<td>78224</td>
+					<td>Robert Garza</td>
+					<td>President</td>
+					<td>(210) 486-3880</td>
+					<td><a href="http://www.alamo.edu/pac" title="www.alamo.edu/pac">www.alamo.edu/pac</a></td>
+				</tr>
+			
+				<tr>
+					<td>Alamo Community College - San Antonio College</td>
+					<td>Alamo Community College District</td>
+					<td>1300 San Pedro Avenue 
+					</td>
+					<td>San Antonio</td>
+					<td>78212</td>
+					<td>Robert Vela</td>
+					<td>President</td>
+					<td>(210) 486-0959</td>
+					<td><a href="http://www.alamo.edu/sac" title="www.alamo.edu/sac">www.alamo.edu/sac</a></td>
+				</tr>
+			
+				<tr>
+					<td>Alamo Community College - St. Philip's College</td>
+					<td>Alamo Community College District</td>
+					<td>1801 Martin Luther King Boulevard 
+					</td>
+					<td>San Antonio</td>
+					<td>78203</td>
+					<td>Adena Loston</td>
+					<td>President</td>
+					<td>(210) 486-2900</td>
+					<td><a href="http://www.alamo.edu/spc/" title="www.alamo.edu/spc/">www.alamo.edu/spc/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Alvin Community College</td>
+					<td></td>
+					<td>3110 Mustang Road 
+					</td>
+					<td>Alvin</td>
+					<td>77511</td>
+					<td>Robert J. Exley</td>
+					<td>President</td>
+					<td>(281) 756-3500</td>
+					<td><a href="http://www.alvincollege.edu" title="www.alvincollege.edu">www.alvincollege.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Amarillo College</td>
+					<td></td>
+					<td>P.O. Box 447 
+					</td>
+					<td>Amarillo</td>
+					<td>79178</td>
+					<td>Denese Skinner</td>
+					<td>Interim President</td>
+					<td>(806) 371-5000</td>
+					<td><a href="http://www.actx.edu" title="www.actx.edu">www.actx.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Amberton University</td>
+					<td></td>
+					<td>1700 Eastgate Drive 
+					</td>
+					<td>Garland</td>
+					<td>75041</td>
+					<td>Melinda Reagan</td>
+					<td>President</td>
+					<td>(972) 279-6511</td>
+					<td><a href="http://www.amberton.edu" title="www.amberton.edu">www.amberton.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Angelina College</td>
+					<td></td>
+					<td>3500 South First 
+					</td>
+					<td>Lufkin</td>
+					<td>75904</td>
+					<td>Michael Simon</td>
+					<td>President</td>
+					<td>(936) 639-1301</td>
+					<td><a href="http://www.angelina.edu" title="www.angelina.edu">www.angelina.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Angelo State University</td>
+					<td>Texas Tech University System</td>
+					<td>2601 W. Avenue N 
+					</td>
+					<td>San Angelo</td>
+					<td>76909</td>
+					<td>Ronnie D. Hawkins, Jr.</td>
+					<td>President</td>
+					<td>(325) 942-2073</td>
+					<td><a href="http://www.angelo.edu" title="www.angelo.edu">www.angelo.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Austin College</td>
+					<td></td>
+					<td>900 N Grand Avenue 
+					</td>
+					<td>Sherman</td>
+					<td>75090</td>
+					<td>Steven O'Day</td>
+					<td>President</td>
+					<td>(903) 813-3001</td>
+					<td><a href="http://www.austincollege.edu" title="www.austincollege.edu">www.austincollege.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Austin Community College</td>
+					<td></td>
+					<td>5930 Middle Fiskville Road 
+					</td>
+					<td>Austin</td>
+					<td>78752</td>
+					<td>Russell Lowery-Hart</td>
+					<td>Chancellor</td>
+					<td>(512) 223-7000</td>
+					<td><a href="http://www.austincc.edu" title="www.austincc.edu">www.austincc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Baylor College of Medicine</td>
+					<td></td>
+					<td>One Baylor Plaza 
+					</td>
+					<td>Houston</td>
+					<td>77030</td>
+					<td>Paul Klotman, M.D.</td>
+					<td>President</td>
+					<td>(713) 798-4433</td>
+					<td><a href="http://www.bcm.tmc.edu" title="www.bcm.tmc.edu">www.bcm.tmc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Baylor University</td>
+					<td></td>
+					<td>One Bear Place, #97056 
+					</td>
+					<td>Waco</td>
+					<td>76798-7056</td>
+					<td>Linda Livingstone</td>
+					<td>President</td>
+					<td>(254) 710-3555</td>
+					<td><a href="http://www.baylor.edu" title="www.baylor.edu">www.baylor.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Blinn College District</td>
+					<td></td>
+					<td>902 College Avenue 
+					</td>
+					<td>Brenham</td>
+					<td>77833</td>
+					<td>Mary Hensley</td>
+					<td>Chancellor</td>
+					<td>(979) 830-4000</td>
+					<td><a href="http://www.blinn.edu" title="www.blinn.edu">www.blinn.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Brazosport College</td>
+					<td></td>
+					<td>500 College Drive 
+					</td>
+					<td>Lake Jackson</td>
+					<td>77566</td>
+					<td>Millicent Valek</td>
+					<td>President</td>
+					<td>(979) 230-3000</td>
+					<td><a href="http://www.brazosport.edu" title="www.brazosport.edu">www.brazosport.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Central Texas College</td>
+					<td></td>
+					<td>6200 West Central Texas Expwy 
+					</td>
+					<td>Killeen</td>
+					<td>76549</td>
+					<td>Michele Carter</td>
+					<td>Chancellor</td>
+					<td>(254) 526-7161</td>
+					<td><a href="http://www.ctcd.edu" title="www.ctcd.edu">www.ctcd.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Cisco College</td>
+					<td></td>
+					<td>101 College Heights 
+					</td>
+					<td>Cisco</td>
+					<td>76437</td>
+					<td>Thad Anglin</td>
+					<td>President</td>
+					<td>(254) 442-5000</td>
+					<td><a href="http://www.cisco.edu" title="www.cisco.edu">www.cisco.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Clarendon College</td>
+					<td></td>
+					<td>1122 College Drive 
+					</td>
+					<td>Clarendon</td>
+					<td>79226</td>
+					<td>Texas D. Buckhaults</td>
+					<td>President</td>
+					<td>(806) 874-3571</td>
+					<td><a href="http://www.clarendoncollege.edu" title="www.clarendoncollege.edu">www.clarendoncollege.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Coastal Bend College</td>
+					<td></td>
+					<td>3800 Charco Road 
+					</td>
+					<td>Beeville</td>
+					<td>78102</td>
+					<td>Justin Hoggard</td>
+					<td>President</td>
+					<td>(361) 358-2838</td>
+					<td><a href="http://www.coastalbend.edu" title="www.coastalbend.edu">www.coastalbend.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>College of Biblical Studies</td>
+					<td></td>
+					<td> 
+					</td>
+					<td></td>
+					<td></td>
+					<td> </td>
+					<td></td>
+					<td></td>
+					<td><a href="http://cbshouston.edu/houston/" title="cbshouston.edu/houston/">cbshouston.edu/houston/</a></td>
+				</tr>
+			
+				<tr>
+					<td>College of the Mainland Community College District</td>
+					<td></td>
+					<td>1200 Amburn Road 
+					</td>
+					<td>Texas City</td>
+					<td>77591</td>
+					<td>Warren Nichols</td>
+					<td>President</td>
+					<td>(409) 938-1211</td>
+					<td><a href="http://www.com.edu" title="www.com.edu">www.com.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Collin County Community College District</td>
+					<td></td>
+					<td>3452 Spur 399 
+					</td>
+					<td>McKinney</td>
+					<td>75069</td>
+					<td>H. Neil Matkin</td>
+					<td>President</td>
+					<td>(972) 758-3801</td>
+					<td><a href="http://www.collin.edu" title="www.collin.edu">www.collin.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Concordia University Texas</td>
+					<td></td>
+					<td>11400 Concordia University Drive 
+					</td>
+					<td>Austin</td>
+					<td>78726</td>
+					<td>Donald Christian</td>
+					<td>President</td>
+					<td>(512) 313-3000</td>
+					<td><a href="http://www.concordia.edu" title="www.concordia.edu">www.concordia.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Criswell College</td>
+					<td></td>
+					<td>4010 Gaston Avenue 
+					</td>
+					<td>Dallas</td>
+					<td>75246</td>
+					<td>Barry Creamer</td>
+					<td>President</td>
+					<td>(214) 821-5433</td>
+					<td><a href="http://www.criswell.edu" title="www.criswell.edu">www.criswell.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Dallas Baptist University</td>
+					<td></td>
+					<td>3000 Mountain Creek Parkway 
+					</td>
+					<td>Dallas</td>
+					<td>75211</td>
+					<td>Adam C. Wright</td>
+					<td>President</td>
+					<td>(214) 333-5130</td>
+					<td><a href="http://www.dbu.edu" title="www.dbu.edu">www.dbu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Dallas College Brookhaven Campus</td>
+					<td>Dallas County Community College District</td>
+					<td>3939 Valley View Lane Farmers Branch
+					</td>
+					<td>Dallas</td>
+					<td>75244-4906</td>
+					<td>Linda Braddy</td>
+					<td>President</td>
+					<td>(972) 860-4700</td>
+					<td><a href="http://www.dcccd.edu/about/bhc/" title="www.dcccd.edu/about/bhc/">www.dcccd.edu/about/bhc/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Dallas College Cedar Valley Campus</td>
+					<td>Dallas County Community College District</td>
+					<td>3030 North Dallas Avenue 
+					</td>
+					<td>Lancaster</td>
+					<td>75134</td>
+					<td>Joe Seabrooks</td>
+					<td>President</td>
+					<td>(972) 860-8200</td>
+					<td><a href="http://www.dcccd.edu/about/cvc/" title="www.dcccd.edu/about/cvc/">www.dcccd.edu/about/cvc/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Dallas College Eastfield Campus</td>
+					<td>Dallas County Community College District</td>
+					<td>3737 Motley Drive 
+					</td>
+					<td>Mesquite</td>
+					<td>75150</td>
+					<td>Eddie Tealer</td>
+					<td>President</td>
+					<td>(972) 860-7001</td>
+					<td><a href="http://www.dcccd.edu/about/efc/" title="www.dcccd.edu/about/efc/">www.dcccd.edu/about/efc/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Dallas College El Centro Campus</td>
+					<td>Dallas County Community College District</td>
+					<td>801 Main Street 
+					</td>
+					<td>Dallas</td>
+					<td>75202</td>
+					<td>Bradford Williams</td>
+					<td>President</td>
+					<td>(214) 860-2000</td>
+					<td><a href="http://www.dcccd.edu/about/ecc/" title="www.dcccd.edu/about/ecc/">www.dcccd.edu/about/ecc/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Dallas College Mountain View Campus</td>
+					<td>Dallas County Community College District</td>
+					<td>4849 West Illinois Avenue 
+					</td>
+					<td>Dallas</td>
+					<td>75211-6599</td>
+					<td>Kenneth Gonzalez</td>
+					<td>President</td>
+					<td>(972) 860-8700</td>
+					<td><a href="http://www.dcccd.edu/about/mvc/" title="www.dcccd.edu/about/mvc/">www.dcccd.edu/about/mvc/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Dallas College North Lake Campus</td>
+					<td>Dallas County Community College District</td>
+					<td>5001 North MacArthur Boulevard 
+					</td>
+					<td>Irving</td>
+					<td>75038-3899</td>
+					<td>Christa Slejko</td>
+					<td>President</td>
+					<td>(972) 273-3010</td>
+					<td><a href="http://www.dcccd.edu/about/nlc/" title="www.dcccd.edu/about/nlc/">www.dcccd.edu/about/nlc/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Dallas College Richland Campus</td>
+					<td>Dallas County Community College District</td>
+					<td>12800 Abrams Road 
+					</td>
+					<td>Dallas</td>
+					<td>75243-2199</td>
+					<td>Kay Eggleston</td>
+					<td>President</td>
+					<td>(972) 238-6106</td>
+					<td><a href="http://www.dcccd.edu/about/rlc/" title="www.dcccd.edu/about/rlc/">www.dcccd.edu/about/rlc/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Del Mar College</td>
+					<td></td>
+					<td>101 Baldwin Boulevard 
+					</td>
+					<td>Corpus Christi</td>
+					<td>78404</td>
+					<td>Mark Escamilla</td>
+					<td>President</td>
+					<td>(361) 698-1200</td>
+					<td><a href="http://www.delmar.edu" title="www.delmar.edu">www.delmar.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>East Texas A&M University</td>
+					<td>Texas A&M University System</td>
+					<td>1700 Hwy 24 
+					</td>
+					<td>Commerce</td>
+					<td>75429</td>
+					<td>Mark Rudin</td>
+					<td>President</td>
+					<td>(903) 886-5014</td>
+					<td><a href="http://www.tamuc.edu" title="www.tamuc.edu">www.tamuc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>East Texas Baptist University</td>
+					<td></td>
+					<td>One Tiger Drive 
+					</td>
+					<td>Marshall</td>
+					<td>75670</td>
+					<td>Blair Blackburn</td>
+					<td>President</td>
+					<td>(903) 923-2222</td>
+					<td><a href="http://www.etbu.edu" title="www.etbu.edu">www.etbu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>El Paso Community College District</td>
+					<td></td>
+					<td>P.O. Box 20500 
+					</td>
+					<td>El Paso</td>
+					<td>79998</td>
+					<td>William Serrata</td>
+					<td>President</td>
+					<td>(915) 831-2000</td>
+					<td><a href="http://www.epcc.edu" title="www.epcc.edu">www.epcc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Frank Phillips College</td>
+					<td></td>
+					<td>P.O. Box 5118 
+					</td>
+					<td>Borger</td>
+					<td>79008-5118</td>
+					<td>Glendon Forgey</td>
+					<td>President</td>
+					<td>(806) 457-4200</td>
+					<td><a href="http://www.fpctx.edu" title="www.fpctx.edu">www.fpctx.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Galveston College</td>
+					<td></td>
+					<td>4015 Avenue Q 
+					</td>
+					<td>Galveston</td>
+					<td>77550</td>
+					<td>Myles Shelton</td>
+					<td>President</td>
+					<td>(409) 944-4242</td>
+					<td><a href="http://www.gc.edu" title="www.gc.edu">www.gc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Grayson College</td>
+					<td></td>
+					<td>6101 Highway 691 
+					</td>
+					<td>Denison</td>
+					<td>75020</td>
+					<td>Jeremy McMillen</td>
+					<td>President</td>
+					<td>(903) 465-6030</td>
+					<td><a href="http://www.grayson.edu" title="www.grayson.edu">www.grayson.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Hardin-Simmons University</td>
+					<td></td>
+					<td>2200 Hickory 
+					</td>
+					<td>Abilene</td>
+					<td>79698</td>
+					<td>Eric Bruntmyer</td>
+					<td>President</td>
+					<td>(325) 670-1226</td>
+					<td><a href="http://www.hsutx.edu" title="www.hsutx.edu">www.hsutx.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Hill College</td>
+					<td></td>
+					<td>112 Lamar Drive 
+					</td>
+					<td>Hillsboro</td>
+					<td>76645</td>
+					<td>Thomas Mills</td>
+					<td>President</td>
+					<td>(254) 659-7500</td>
+					<td><a href="http://www.hillcollege.edu/" title="www.hillcollege.edu/">www.hillcollege.edu/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Houston Christian University</td>
+					<td></td>
+					<td>7502 Fondren Road 
+					</td>
+					<td>Houston</td>
+					<td>77074</td>
+					<td>Robert Sloan, Jr.</td>
+					<td>President</td>
+					<td>(281) 649-3450</td>
+					<td><a href="http://www.hbu.edu" title="www.hbu.edu">www.hbu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Houston City College</td>
+					<td>Houston City College</td>
+					<td>3100 Main Street 
+					</td>
+					<td>Houston</td>
+					<td>77002</td>
+					<td>Margaret F. Fisher.</td>
+					<td>Interim Chancellor</td>
+					<td>(713) 718-5059</td>
+					<td><a href="http://www.hccs.edu" title="www.hccs.edu">www.hccs.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Houston City College - Central Campus</td>
+					<td>Houston City College</td>
+					<td>1300 Holman 
+					</td>
+					<td>Houston</td>
+					<td>77004</td>
+					<td>Muddassir Siddiqi</td>
+					<td>President</td>
+					<td>(713) 718-6040</td>
+					<td><a href="http://www.hccs.edu/locations/central-college/central-campus/
+
+" title="www.hccs.edu/locations/central-college/central-campus/
+
+">www.hccs.edu/locations/central-college/central-campus/
+
+</a></td>
+				</tr>
+			
+				<tr>
+					<td>Houston City College - Northeast Campus</td>
+					<td>Houston City College</td>
+					<td>401 Northline Mall 
+					</td>
+					<td>Houston</td>
+					<td>77022</td>
+					<td>Margaret Ford Fisher</td>
+					<td>President</td>
+					<td>(713) 718-8010</td>
+					<td><a href="http://www.hccs.edu/locations/northeast-college/northeast-campus/
+" title="www.hccs.edu/locations/northeast-college/northeast-campus/
+">www.hccs.edu/locations/northeast-college/northeast-campus/
+</a></td>
+				</tr>
+			
+				<tr>
+					<td>Houston City College - Northwest College</td>
+					<td>Houston City College</td>
+					<td>1550 Foxlake Drive, Suite 101 
+					</td>
+					<td>Houston</td>
+					<td>77084</td>
+					<td>Zachary R. Hodges</td>
+					<td>President</td>
+					<td>(713) 718-5721</td>
+					<td><a href="http://www.hccs.edu/locations/northwest-college/
+" title="www.hccs.edu/locations/northwest-college/
+">www.hccs.edu/locations/northwest-college/
+</a></td>
+				</tr>
+			
+				<tr>
+					<td>Houston City College - Southwest College</td>
+					<td>Houston City College</td>
+					<td>6815 Rustic 
+					</td>
+					<td>Houston</td>
+					<td>77087</td>
+					<td>Madeline Burrillo</td>
+					<td>President</td>
+					<td>(713) 718-7071</td>
+					<td><a href="http://www.hccs.edu/locations/southwest-college/" title="www.hccs.edu/locations/southwest-college/">www.hccs.edu/locations/southwest-college/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Howard College</td>
+					<td>Howard County Junior College District</td>
+					<td>1001 Birdwell Lane 
+					</td>
+					<td>Big Spring</td>
+					<td>79720</td>
+					<td>Cheryl T. Sparks</td>
+					<td>President</td>
+					<td>(915) 264-5000</td>
+					<td><a href="http://www.howardcollege.edu" title="www.howardcollege.edu">www.howardcollege.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Howard County Junior College District–SouthWest College for the Deaf</td>
+					<td>Howard County Junior College District</td>
+					<td>3200 Avenue C 
+					</td>
+					<td>Big Spring</td>
+					<td>79720</td>
+					<td>Cheryl T. Sparks</td>
+					<td>President</td>
+					<td>(915) 264-3700</td>
+					<td><a href="http://www.howardcollege.edu/swcid/" title="www.howardcollege.edu/swcid/">www.howardcollege.edu/swcid/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Howard Payne University</td>
+					<td></td>
+					<td>1000 Fisk Street 
+					</td>
+					<td>Brownwood</td>
+					<td>76801</td>
+					<td>Cory Hines</td>
+					<td>President</td>
+					<td>(325) 649-8000</td>
+					<td><a href="http://www.hputx.edu" title="www.hputx.edu">www.hputx.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Huston-Tillotson University</td>
+					<td></td>
+					<td>900 Chicon Street 
+					</td>
+					<td>Austin</td>
+					<td>78702-2795</td>
+					<td>Dr. Colette Pierce Burnette</td>
+					<td>President</td>
+					<td>(512) 505-3001</td>
+					<td><a href="http://www.htu.edu" title="www.htu.edu">www.htu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Jacksonville College</td>
+					<td></td>
+					<td>105 B.J. Albritton Drive 
+					</td>
+					<td>Jacksonville</td>
+					<td>75766</td>
+					<td>Joseph Lightner</td>
+					<td>President</td>
+					<td>(903)586-2518</td>
+					<td><a href="http://www.jacksonville-college.edu" title="www.jacksonville-college.edu">www.jacksonville-college.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Jarvis Christian University</td>
+					<td></td>
+					<td>P.O. Box 1470 
+					</td>
+					<td>Hawkins</td>
+					<td>75765</td>
+					<td>Lester Newman</td>
+					<td>President</td>
+					<td>(903) 730-4890</td>
+					<td><a href="http://www.jarvis.edu" title="www.jarvis.edu">www.jarvis.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Kilgore College</td>
+					<td></td>
+					<td>1100 Broadway 
+					</td>
+					<td>Kilgore</td>
+					<td>75662</td>
+					<td>Brenda Kays</td>
+					<td>President</td>
+					<td>(903) 984-8531</td>
+					<td><a href="http://www.kilgore.edu" title="www.kilgore.edu">www.kilgore.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lamar Institute of Technology</td>
+					<td>Texas State University System</td>
+					<td>855 East Lavaca 
+					</td>
+					<td>Beaumont</td>
+					<td>77710</td>
+					<td>Sidney E Valentine</td>
+					<td>President</td>
+					<td>(409) 880-8185</td>
+					<td><a href="http://www.lit.edu" title="www.lit.edu">www.lit.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lamar State College-Orange</td>
+					<td>Texas State University System</td>
+					<td>410 Front Street 
+					</td>
+					<td>Orange</td>
+					<td>77630</td>
+					<td>Thomas A. Johnson</td>
+					<td>President</td>
+					<td>(409) 883-7750</td>
+					<td><a href="http://www.lsco.edu" title="www.lsco.edu">www.lsco.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lamar State College-Port Arthur</td>
+					<td>Texas State University System</td>
+					<td>1500 Procter Street 
+					</td>
+					<td>Port Arthur</td>
+					<td>77641-0310</td>
+					<td>Betty J. Reynard</td>
+					<td>President</td>
+					<td>(409) 983-4921</td>
+					<td><a href="http://www.lamarpa.edu" title="www.lamarpa.edu">www.lamarpa.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lamar University</td>
+					<td>Texas State University System</td>
+					<td>4400 Martin L. King Boulevard 
+					</td>
+					<td>Beaumont</td>
+					<td>77710</td>
+					<td>Jaime R. Taylor</td>
+					<td>President</td>
+					<td>(409) 880-7011</td>
+					<td><a href="http://www.lamar.edu" title="www.lamar.edu">www.lamar.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Laredo College</td>
+					<td></td>
+					<td>West End Washington Street 
+					</td>
+					<td>Laredo</td>
+					<td>78040-4395</td>
+					<td>Merisela R. Tijerina</td>
+					<td>Interim President</td>
+					<td>(956) 722-0521</td>
+					<td><a href="http://www.laredo.edu" title="www.laredo.edu">www.laredo.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lee College</td>
+					<td></td>
+					<td>200 Lee Drive 
+					</td>
+					<td>Baytown</td>
+					<td>77520-4703</td>
+					<td>Lynda Villanueva</td>
+					<td>President</td>
+					<td>(281) 427-5611</td>
+					<td><a href="http://www.lee.edu" title="www.lee.edu">www.lee.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>LeTourneau University</td>
+					<td></td>
+					<td>2100 South Mobberly Avenue 
+					</td>
+					<td>Longview</td>
+					<td>75602</td>
+					<td>Steven Mason</td>
+					<td>Acting President</td>
+					<td>(903) 233-3100</td>
+					<td><a href="http://www.letu.edu" title="www.letu.edu">www.letu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lone Star College - Connect Campus</td>
+					<td>Lone Star College System</td>
+					<td>5000 Research Forest Drive 
+					</td>
+					<td>The Woodlands</td>
+					<td>77381</td>
+					<td>Seelpa Keshvala</td>
+					<td>Executive Vice Chancellor/CEO</td>
+					<td>(832) 813-6500</td>
+					<td><a href="http://www.lonestar.edu/lsc-online/" title="www.lonestar.edu/lsc-online/">www.lonestar.edu/lsc-online/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lone Star College - Cy-Fair</td>
+					<td>Lone Star College System</td>
+					<td>9191 Barker Cypress Road 
+					</td>
+					<td>Houston</td>
+					<td>77433</td>
+					<td>Valerie Jones</td>
+					<td>President</td>
+					<td>(281) 290-3200</td>
+					<td><a href="http://www.lonestar.edu/cyfair.htm" title="www.lonestar.edu/cyfair.htm">www.lonestar.edu/cyfair.htm</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lone Star College - Houston North</td>
+					<td>Lone Star College System</td>
+					<td>250 North Sam Houston Parkway East 
+					</td>
+					<td>Houston</td>
+					<td>77060</td>
+					<td>Quentin Ashley Wright</td>
+					<td>President</td>
+					<td>(281) 260-3500</td>
+					<td><a href="http://www.lonestar.edu/houstonNorth" title="www.lonestar.edu/houstonNorth">www.lonestar.edu/houstonNorth</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lone Star College - Kingwood</td>
+					<td>Lone Star College System</td>
+					<td>20000 Kingwood Drive 
+					</td>
+					<td>Kingwood</td>
+					<td>77339</td>
+					<td>Melissa N. Gonzalez</td>
+					<td>President</td>
+					<td>(281) 312-1600</td>
+					<td><a href="http://www.lonestar.edu/kingwood.htm" title="www.lonestar.edu/kingwood.htm">www.lonestar.edu/kingwood.htm</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lone Star College - Montgomery</td>
+					<td>Lone Star College System</td>
+					<td>3200 College Park Drive 
+					</td>
+					<td>Conroe</td>
+					<td>77384</td>
+					<td>De' Reese Reid-Hart</td>
+					<td>President</td>
+					<td>(936) 273-7000</td>
+					<td><a href="http://www.lonestar.edu/montgomery.htm" title="www.lonestar.edu/montgomery.htm">www.lonestar.edu/montgomery.htm</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lone Star College - North Harris</td>
+					<td>Lone Star College System</td>
+					<td>2700 West West Thorne Drive 
+					</td>
+					<td>Houston</td>
+					<td>77073</td>
+					<td>Bennie Lambert</td>
+					<td>President</td>
+					<td>(281) 618-5400</td>
+					<td><a href="http://www.lonestar.edu/northharris.htm" title="www.lonestar.edu/northharris.htm">www.lonestar.edu/northharris.htm</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lone Star College - Tomball</td>
+					<td>Lone Star College System</td>
+					<td>30555 Tomball Parkway 
+					</td>
+					<td>Tomball</td>
+					<td>77375</td>
+					<td>Lee Ann Nutt</td>
+					<td>President</td>
+					<td>(281) 351-3300</td>
+					<td><a href="http://www.lonestar.edu/tomball.htm" title="www.lonestar.edu/tomball.htm">www.lonestar.edu/tomball.htm</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lone Star College - University Park</td>
+					<td>Lone Star College System</td>
+					<td>20515 SH249 (SH 249 and Louetta Road) 
+					</td>
+					<td>Houston</td>
+					<td>77070</td>
+					<td>Virginia M. Fraire</td>
+					<td>President</td>
+					<td>(281) 290-2600</td>
+					<td><a href="http://www.lonestar.edu/universitypark.htm" title="www.lonestar.edu/universitypark.htm">www.lonestar.edu/universitypark.htm</a></td>
+				</tr>
+			
+				<tr>
+					<td>Lubbock Christian University</td>
+					<td></td>
+					<td>5601 19th Street 
+					</td>
+					<td>Lubbock</td>
+					<td>79407</td>
+					<td>Scott McDowell</td>
+					<td>President</td>
+					<td>(806) 720-7127</td>
+					<td><a href="http://www.lcu.edu" title="www.lcu.edu">www.lcu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>McLennan Community College</td>
+					<td></td>
+					<td>1400 College Drive 
+					</td>
+					<td>Waco</td>
+					<td>76708</td>
+					<td>Johnette McKown</td>
+					<td>President</td>
+					<td>(254) 299-8000</td>
+					<td><a href="http://www.mclennan.edu" title="www.mclennan.edu">www.mclennan.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>McMurry University</td>
+					<td></td>
+					<td>1400 Sayles Blvd 
+					</td>
+					<td>Abilene</td>
+					<td>79697</td>
+					<td>Sandra Harper</td>
+					<td>President/CEO</td>
+					<td>(325) 793-3801</td>
+					<td><a href="http://www.mcm.edu" title="www.mcm.edu">www.mcm.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Midland College</td>
+					<td></td>
+					<td>3600 North Garfield 
+					</td>
+					<td>Midland</td>
+					<td>79705</td>
+					<td>Damon Kennedy</td>
+					<td>President</td>
+					<td>(432) 685-4500</td>
+					<td><a href="http://www.midland.edu" title="www.midland.edu">www.midland.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Midwestern State University</td>
+					<td>Texas Tech University System</td>
+					<td>3410 Taft Boulevard 
+					</td>
+					<td>Wichita Falls</td>
+					<td>76308-2099</td>
+					<td>Stacia Haynie</td>
+					<td>President</td>
+					<td>(940) 397-4000</td>
+					<td><a href="http://www.mwsu.edu" title="www.mwsu.edu">www.mwsu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Navarro College</td>
+					<td></td>
+					<td>3200 West 7th Avenue 
+					</td>
+					<td>Corsicana</td>
+					<td>75110</td>
+					<td>Kevin Fegan</td>
+					<td>President</td>
+					<td>(903) 874-6501</td>
+					<td><a href="http://www.navarrocollege.edu" title="www.navarrocollege.edu">www.navarrocollege.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Nelson University</td>
+					<td></td>
+					<td>1200 Sycamore 
+					</td>
+					<td>Waxahachie</td>
+					<td>75166</td>
+					<td>Kermit S. Bridges</td>
+					<td>President</td>
+					<td>(972) 825-4652</td>
+					<td><a href="http://www.sagu.edu" title="www.sagu.edu">www.sagu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>North Central Texas College</td>
+					<td></td>
+					<td>1525 West California Street 
+					</td>
+					<td>Gainesville</td>
+					<td>76240</td>
+					<td>Brent Wallace</td>
+					<td>President</td>
+					<td>(940) 668-7731</td>
+					<td><a href="http://www.nctc.edu" title="www.nctc.edu">www.nctc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Northeast Texas Community College</td>
+					<td></td>
+					<td>2886 FM 1735 Chapel Hill Road 
+					</td>
+					<td>Mount Pleasant</td>
+					<td>75456-1307</td>
+					<td>Ron Clinton</td>
+					<td>President</td>
+					<td>(903) 572-1911</td>
+					<td><a href="http://www.ntcc.edu" title="www.ntcc.edu">www.ntcc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Odessa College</td>
+					<td></td>
+					<td>201 West University 
+					</td>
+					<td>Odessa</td>
+					<td>79764</td>
+					<td>Gregory Williams</td>
+					<td>President</td>
+					<td>(432) 335-6400</td>
+					<td><a href="http://www.odessa.edu" title="www.odessa.edu">www.odessa.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Our Lady of the Lake University of San Antonio</td>
+					<td></td>
+					<td>411 S.W. 24th Street 
+					</td>
+					<td>San Antonio</td>
+					<td>78207</td>
+					<td>Abel A. Chávez</td>
+					<td>President</td>
+					<td>(210) 431-3950</td>
+					<td><a href="http://www.ollusa.edu" title="www.ollusa.edu">www.ollusa.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Panola College</td>
+					<td></td>
+					<td>1109 West Panola Street 
+					</td>
+					<td>Carthage</td>
+					<td>75633</td>
+					<td>Jessica Pace</td>
+					<td>President</td>
+					<td>(903) 693-2000</td>
+					<td><a href="http://www.panola.edu" title="www.panola.edu">www.panola.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Paris Junior College</td>
+					<td></td>
+					<td>2400 Clarksville Street 
+					</td>
+					<td>Paris</td>
+					<td>75460</td>
+					<td>Jerry King</td>
+					<td>President</td>
+					<td>(903) 785-7661</td>
+					<td><a href="http://www.parisjc.edu" title="www.parisjc.edu">www.parisjc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Parker University</td>
+					<td></td>
+					<td>2540 Walnut Hill Lane 
+					</td>
+					<td>Dallas</td>
+					<td>75229</td>
+					<td>William Morgan</td>
+					<td>President</td>
+					<td>(972)438-6932</td>
+					<td><a href="http://www.parker.edu" title="www.parker.edu">www.parker.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Paul Quinn College</td>
+					<td></td>
+					<td>3837 Simpson Stuart Road 
+					</td>
+					<td>Dallas</td>
+					<td>75241</td>
+					<td>Michael Sorrell</td>
+					<td>President</td>
+					<td>(214) 379-5515</td>
+					<td><a href="http://www.pqc.edu" title="www.pqc.edu">www.pqc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Prairie View A&M University</td>
+					<td>Texas A&M University System</td>
+					<td>FM 1098 & University Drive 
+					</td>
+					<td>Prairie View</td>
+					<td>77446</td>
+					<td>Tomikia P. LeGrande</td>
+					<td>President</td>
+					<td>(936) 857-3311</td>
+					<td><a href="http://www.pvamu.edu" title="www.pvamu.edu">www.pvamu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Ranger College</td>
+					<td></td>
+					<td>1100 College Circle 
+					</td>
+					<td>Ranger</td>
+					<td>76470</td>
+					<td>Derrick Worrels</td>
+					<td>President</td>
+					<td>(254) 647-3234</td>
+					<td><a href="http://www.rangercollege.edu" title="www.rangercollege.edu">www.rangercollege.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Rice University</td>
+					<td></td>
+					<td>6100 Main 
+					</td>
+					<td>Houston</td>
+					<td>77005</td>
+					<td>David Leebron</td>
+					<td>President</td>
+					<td>(713) 348-5050</td>
+					<td><a href="http://www.rice.edu" title="www.rice.edu">www.rice.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Sam Houston State University</td>
+					<td>Texas State University System</td>
+					<td>1806 Avenue J 
+					</td>
+					<td>Huntsville</td>
+					<td>77341</td>
+					<td>Alisa White</td>
+					<td>President</td>
+					<td>(866) 294-1111</td>
+					<td><a href="http://www.shsu.edu" title="www.shsu.edu">www.shsu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Sam Houston State University College of Osteopathic Medicine</td>
+					<td>Texas State University System</td>
+					<td>925 City Central Ave. 
+					</td>
+					<td>Conroe</td>
+					<td>77304</td>
+					<td>Dana G. Hoyt</td>
+					<td>President</td>
+					<td>(936) 202-5202</td>
+					<td><a href="http://www.shsu.edu/academics/osteopathic-medicine/" title="www.shsu.edu/academics/osteopathic-medicine/">www.shsu.edu/academics/osteopathic-medicine/</a></td>
+				</tr>
+			
+				<tr>
+					<td>San Jacinto College Central Campus</td>
+					<td>San Jacinto College District</td>
+					<td>8060 Spencer Highway 
+					</td>
+					<td>Pasadena</td>
+					<td>77505</td>
+					<td>Van Wigginton</td>
+					<td>Provost</td>
+					<td>(281) 476-1501</td>
+					<td><a href="http://www.sjcd.edu" title="www.sjcd.edu">www.sjcd.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>San Jacinto College North Campus</td>
+					<td>San Jacinto College District</td>
+					<td>5800 Uvalde Road 
+					</td>
+					<td>Houston</td>
+					<td>77049</td>
+					<td>William Raffetto</td>
+					<td>Provost</td>
+					<td>(281) 458-4050</td>
+					<td><a href="http://www.sjcd.edu" title="www.sjcd.edu">www.sjcd.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>San Jacinto College South Campus</td>
+					<td>San Jacinto College District</td>
+					<td>13735 Beamer Road 
+					</td>
+					<td>Houston</td>
+					<td>77089</td>
+					<td>Brenda Jones</td>
+					<td>Provost</td>
+					<td>(713) 484-1900</td>
+					<td><a href="http://www.sjcd.edu" title="www.sjcd.edu">www.sjcd.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Schreiner University</td>
+					<td></td>
+					<td>2100 Memorial Boulevard Murray Administration Building
+					</td>
+					<td>Kerrville</td>
+					<td>78028</td>
+					<td>Charlie T. McCormick</td>
+					<td>President</td>
+					<td>(830) 792-7346</td>
+					<td><a href="http://www.schreiner.edu" title="www.schreiner.edu">www.schreiner.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>SHSU Polytechnic College</td>
+					<td>Texas State University System</td>
+					<td> 
+					</td>
+					<td></td>
+					<td></td>
+					<td> </td>
+					<td></td>
+					<td></td>
+					<td><a href="http://" title=""></a></td>
+				</tr>
+			
+				<tr>
+					<td>South Plains College</td>
+					<td></td>
+					<td>1401 College Avenue 
+					</td>
+					<td>Levelland</td>
+					<td>79336</td>
+					<td>Robin Satterwhite</td>
+					<td>President</td>
+					<td>(806) 894-9611</td>
+					<td><a href="http://www.southplainscollege.edu" title="www.southplainscollege.edu">www.southplainscollege.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>South Texas College</td>
+					<td></td>
+					<td>3201 West Pecan 
+					</td>
+					<td>McAllen</td>
+					<td>78502-9701</td>
+					<td>Ricardo Solis</td>
+					<td>President</td>
+					<td>(956) 872-8311</td>
+					<td><a href="http://www.southtexascollege.edu" title="www.southtexascollege.edu">www.southtexascollege.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>South Texas College of Law Houston</td>
+					<td></td>
+					<td>1303 San Jacinto Street 
+					</td>
+					<td>Houston</td>
+					<td>77002</td>
+					<td>Donald Guter</td>
+					<td>President/Dean</td>
+					<td>(713) 659-8040</td>
+					<td><a href="http://www.stcl.edu" title="www.stcl.edu">www.stcl.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Southern Methodist University</td>
+					<td></td>
+					<td>6425 Boaz Lane 
+					</td>
+					<td>Dallas</td>
+					<td>75275</td>
+					<td>Gerald Turner</td>
+					<td>President</td>
+					<td>(214) 768-3300</td>
+					<td><a href="http://www.smu.edu" title="www.smu.edu">www.smu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Southwest Texas College</td>
+					<td></td>
+					<td>2401 Garner Field Road 
+					</td>
+					<td>Uvalde</td>
+					<td>78801</td>
+					<td>Hector Gonzales</td>
+					<td>President</td>
+					<td>(830) 278-4401</td>
+					<td><a href="http://www.swtjc.edu/" title="www.swtjc.edu/">www.swtjc.edu/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Southwestern Adventist University</td>
+					<td></td>
+					<td>100 West Hillcrest 
+					</td>
+					<td>Keene</td>
+					<td>76059-0567</td>
+					<td>Ken Shaw</td>
+					<td>President</td>
+					<td>(817) 202-6202</td>
+					<td><a href="http://www.swau.edu" title="www.swau.edu">www.swau.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Southwestern Christian College</td>
+					<td></td>
+					<td>P.O. Box 10 
+					</td>
+					<td>Terrell</td>
+					<td>75160-9002</td>
+					<td>Ervin D. Seamster, Jr.</td>
+					<td>President</td>
+					<td>(972) 524-3341</td>
+					<td><a href="http://www.swcc.edu" title="www.swcc.edu">www.swcc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Southwestern University</td>
+					<td></td>
+					<td>1001 East University Avenue 
+					</td>
+					<td>Georgetown</td>
+					<td>78627-0770</td>
+					<td>Laura Skandera-Tormble</td>
+					<td>President</td>
+					<td>(512) 863-1454</td>
+					<td><a href="http://www.southwestern.edu" title="www.southwestern.edu">www.southwestern.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>St. Edward's University</td>
+					<td></td>
+					<td>3001 South Congress Avenue 
+					</td>
+					<td>Austin</td>
+					<td>78704</td>
+					<td>George Martin</td>
+					<td>President</td>
+					<td>(512) 448-8411</td>
+					<td><a href="http://www.stedwards.edu/" title="www.stedwards.edu/">www.stedwards.edu/</a></td>
+				</tr>
+			
+				<tr>
+					<td>St. Mary's University</td>
+					<td></td>
+					<td>One Camino Santa Maria 
+					</td>
+					<td>San Antonio</td>
+					<td>78228</td>
+					<td>Winston Erevelles</td>
+					<td>President</td>
+					<td>(210) 436-3722</td>
+					<td><a href="http://www.stmarytx.edu" title="www.stmarytx.edu">www.stmarytx.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Stephen F. Austin State University</td>
+					<td>The University of Texas System</td>
+					<td>1936 North Street 
+					</td>
+					<td>Nacogdoches</td>
+					<td>75962</td>
+					<td>Neal Weaver</td>
+					<td>President</td>
+					<td>(936) 468-2011</td>
+					<td><a href="http://www.sfasu.edu" title="www.sfasu.edu">www.sfasu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Sul Ross State University</td>
+					<td>Texas State University System</td>
+					<td>East Highway 90 
+					</td>
+					<td>Alpine</td>
+					<td>79832</td>
+					<td>Pete P. Gallego</td>
+					<td>President</td>
+					<td>(432) 837-8011</td>
+					<td><a href="http://www.sulross.edu" title="www.sulross.edu">www.sulross.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Sul Ross State University Rio Grande College</td>
+					<td>Texas State University System</td>
+					<td>Route 3, Box 1200 
+					</td>
+					<td>Eagle Pass</td>
+					<td>78852</td>
+					<td>Pete P. Gallego</td>
+					<td>President</td>
+					<td>(830) 278-3339</td>
+					<td><a href="http://www.sulross.edu" title="www.sulross.edu">www.sulross.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Tarleton State University</td>
+					<td>Texas A&M University System</td>
+					<td>1333 West Washington 
+					</td>
+					<td>Stephenville</td>
+					<td>76402</td>
+					<td>James Hurley</td>
+					<td>President</td>
+					<td>(254) 968-9000</td>
+					<td><a href="http://www.tarleton.edu" title="www.tarleton.edu">www.tarleton.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Tarrant County College - Connect Campus</td>
+					<td>Tarrant County College District</td>
+					<td>444 North Henderson 
+					</td>
+					<td>Fort Worth</td>
+					<td>76102</td>
+					<td>Carlos Morales</td>
+					<td>President</td>
+					<td>(817) 515-1650</td>
+					<td><a href="http://www.tccd.edu/locations/tcc-connect-campus/" title="www.tccd.edu/locations/tcc-connect-campus/">www.tccd.edu/locations/tcc-connect-campus/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Tarrant County College - Northeast Campus</td>
+					<td>Tarrant County College District</td>
+					<td>828 Harwood Road 
+					</td>
+					<td>Hurst</td>
+					<td>76054</td>
+					<td>Allen Goben</td>
+					<td>President</td>
+					<td>(817) 515-8223</td>
+					<td><a href="http://www.tccd.edu/locations/Northeast-Campus/" title="www.tccd.edu/locations/Northeast-Campus/">www.tccd.edu/locations/Northeast-Campus/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Tarrant County College - Northwest Campus</td>
+					<td>Tarrant County College District</td>
+					<td>4801 Marine Creek Parkway 
+					</td>
+					<td>Fort Worth</td>
+					<td>76179-3599</td>
+					<td>Zarina Blankenbaker</td>
+					<td>President</td>
+					<td>(817) 515-8223</td>
+					<td><a href="http://www.tccd.edu/locations/Northwest-Campus/" title="www.tccd.edu/locations/Northwest-Campus/">www.tccd.edu/locations/Northwest-Campus/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Tarrant County College - South Campus</td>
+					<td>Tarrant County College District</td>
+					<td>5301 Campus Drive 
+					</td>
+					<td>Fort Worth</td>
+					<td>76119</td>
+					<td>Peter Jordan</td>
+					<td>President</td>
+					<td>(817) 515-8223</td>
+					<td><a href="http://www.tccd.edu/locations/South-Campus/" title="www.tccd.edu/locations/South-Campus/">www.tccd.edu/locations/South-Campus/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Tarrant County College - Southeast Campus</td>
+					<td>Tarrant County College District</td>
+					<td>2100 Southeast Parkway 
+					</td>
+					<td>Arlington</td>
+					<td>76018-2907</td>
+					<td>Bill Coppola</td>
+					<td>President</td>
+					<td>(817) 515-8223</td>
+					<td><a href="http://www.tccd.edu/locations/Southeast-Campus/" title="www.tccd.edu/locations/Southeast-Campus/">www.tccd.edu/locations/Southeast-Campus/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Tarrant County College - Trinity River Campus</td>
+					<td>Tarrant County College District</td>
+					<td>300 Trinity Campus Circle 
+					</td>
+					<td>Fort Worth</td>
+					<td>76102</td>
+					<td>S. Sean Madison</td>
+					<td>President</td>
+					<td>(817) 515-8223</td>
+					<td><a href="http://www.tccd.edu/locations/Trinity-River-Campus/" title="www.tccd.edu/locations/Trinity-River-Campus/">www.tccd.edu/locations/Trinity-River-Campus/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Temple College</td>
+					<td></td>
+					<td>2600 South First Street 
+					</td>
+					<td>Temple</td>
+					<td>76504-7435</td>
+					<td>Christina Ponce</td>
+					<td>President</td>
+					<td>(254) 298-8282</td>
+					<td><a href="http://www.templejc.edu/" title="www.templejc.edu/">www.templejc.edu/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texarkana College</td>
+					<td></td>
+					<td>2500 North Robison Road 
+					</td>
+					<td>Texarkana</td>
+					<td>75501</td>
+					<td>Jason Smith</td>
+					<td>President</td>
+					<td>(903) 838-4541</td>
+					<td><a href="http://www.texarkanacollege.edu
+" title="www.texarkanacollege.edu
+">www.texarkanacollege.edu
+</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas A&M Health Science Center</td>
+					<td>Texas A&M University System</td>
+					<td>8441 State Highway 47 Clinical Building 1, Suite 3100
+					</td>
+					<td>Bryan</td>
+					<td>77807</td>
+					<td>Paul Ogden</td>
+					<td>Interim Executive Vice President and Acting CEO</td>
+					<td>(979) 436-9100</td>
+					<td><a href="http://tamhsc.edu" title="tamhsc.edu">tamhsc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas A&M International University</td>
+					<td>Texas A&M University System</td>
+					<td>5201 University Boulevard 
+					</td>
+					<td>Laredo</td>
+					<td>78041</td>
+					<td>Christopher Maynard</td>
+					<td>President</td>
+					<td>(956) 326-2001</td>
+					<td><a href="http://www.tamiu.edu" title="www.tamiu.edu">www.tamiu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas A&M University</td>
+					<td>Texas A&M University System</td>
+					<td>1265 TAMU 
+					</td>
+					<td>College Station</td>
+					<td>77843-1265</td>
+					<td>Tommy Williams</td>
+					<td>Interim President</td>
+					<td>(979) 845-3211</td>
+					<td><a href="http://www.tamu.edu" title="www.tamu.edu">www.tamu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas A&M University at Galveston</td>
+					<td>Texas A&M University System</td>
+					<td>Seawolf Parkway 
+					</td>
+					<td>Galveston</td>
+					<td>77553</td>
+					<td>Col. Michael E. Fossum</td>
+					<td>Chief Operating Officer</td>
+					<td>(877) 322-4443</td>
+					<td><a href="http://www.tamug.edu" title="www.tamug.edu">www.tamug.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas A&M University-Central Texas</td>
+					<td>Texas A&M University System</td>
+					<td>1001 Leadership Place 
+					</td>
+					<td>Killeen</td>
+					<td>76549</td>
+					<td>Richard Rhodes</td>
+					<td>President</td>
+					<td>(254) 519-5400</td>
+					<td><a href="http://www.tamuct.edu" title="www.tamuct.edu">www.tamuct.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas A&M University-Corpus Christi</td>
+					<td>Texas A&M University System</td>
+					<td>6300 Ocean Drive 
+					</td>
+					<td>Corpus Christi</td>
+					<td>78412</td>
+					<td>Kelly Miller</td>
+					<td>President</td>
+					<td>(361) 825-5700</td>
+					<td><a href="http://www.tamucc.edu" title="www.tamucc.edu">www.tamucc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas A&M University-Kingsville</td>
+					<td>Texas A&M University System</td>
+					<td>700 University Boulevard 
+					</td>
+					<td>Kingsville</td>
+					<td>78363</td>
+					<td>Dr. Robert Vela</td>
+					<td>President</td>
+					<td>(361) 593-3207</td>
+					<td><a href="http://www.tamuk.edu" title="www.tamuk.edu">www.tamuk.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas A&M University-San Antonio</td>
+					<td>Texas A&M University System</td>
+					<td>One University Way 
+					</td>
+					<td>San Antonio</td>
+					<td>78224</td>
+					<td>Salvador Hector Ochoa</td>
+					<td>President</td>
+					<td>(210) 932-6299</td>
+					<td><a href="http://www.tamusa.edu/" title="www.tamusa.edu/">www.tamusa.edu/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas A&M University-Texarkana</td>
+					<td>Texas A&M University System</td>
+					<td>7101 University Avenue 
+					</td>
+					<td>Texarkana</td>
+					<td>75503</td>
+					<td>Ross C. Alexander</td>
+					<td>President</td>
+					<td>(903) 223-3000</td>
+					<td><a href="http://www.tamut.edu" title="www.tamut.edu">www.tamut.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas A&M University-Victoria</td>
+					<td>Texas A&M University System</td>
+					<td>3007 N. Ben Wilson 
+					</td>
+					<td>Victoria</td>
+					<td>77901-5731</td>
+					<td>Christian E. Hardigree</td>
+					<td>President</td>
+					<td>(361) 570-4848</td>
+					<td><a href="http://www.uhv.edu" title="www.uhv.edu">www.uhv.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas Chiropractic College</td>
+					<td></td>
+					<td>5912 Spencer Highway 
+					</td>
+					<td>Pasadena</td>
+					<td>77508</td>
+					<td>Brad McKechnie</td>
+					<td>President</td>
+					<td>(281) 487-1170</td>
+					<td><a href="http://www.txchiro.edu/" title="www.txchiro.edu/">www.txchiro.edu/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas Christian University</td>
+					<td></td>
+					<td>2800 South University Drive 
+					</td>
+					<td>Fort Worth</td>
+					<td>76129</td>
+					<td>Victor Boschini, Jr.</td>
+					<td>Chancellor</td>
+					<td>(817) 257-7783</td>
+					<td><a href="http://www.tcu.edu" title="www.tcu.edu">www.tcu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas College</td>
+					<td></td>
+					<td>2404 North Grand Avenue 
+					</td>
+					<td>Tyler</td>
+					<td>75702</td>
+					<td>Dwight Fennell</td>
+					<td>President</td>
+					<td>(903) 593-8311</td>
+					<td><a href="http://www.texascollege.edu" title="www.texascollege.edu">www.texascollege.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas Lutheran University</td>
+					<td></td>
+					<td>1000 West Court Street 
+					</td>
+					<td>Seguin</td>
+					<td>78155</td>
+					<td>Debbie Cottrell</td>
+					<td>President</td>
+					<td>(830) 372-8001</td>
+					<td><a href="http://www.tlu.edu" title="www.tlu.edu">www.tlu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas Southern University</td>
+					<td></td>
+					<td>3100 Cleburne Avenue 
+					</td>
+					<td>Houston</td>
+					<td>77004</td>
+					<td>Leisa Crumpton-Young</td>
+					<td>President</td>
+					<td>(713) 313-7011</td>
+					<td><a href="http://www.tsu.edu" title="www.tsu.edu">www.tsu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas Southmost College</td>
+					<td></td>
+					<td>80 Fort Brown 
+					</td>
+					<td>Brownsville</td>
+					<td>78520</td>
+					<td>Jesus R. Rodriguez</td>
+					<td>President</td>
+					<td>(956) 295-3600</td>
+					<td><a href="http://www.tsc.edu/" title="www.tsc.edu/">www.tsc.edu/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas State Technical College</td>
+					<td>Texas State Technical College System</td>
+					<td>3801 Campus Drive 
+					</td>
+					<td>Waco</td>
+					<td>76705</td>
+					<td>Michael Reeser</td>
+					<td>Chancellor</td>
+					<td>(254) 867-4891</td>
+					<td><a href="http://www.tstc.edu" title="www.tstc.edu">www.tstc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas State Technical College-CONNECT</td>
+					<td>Texas State Technical College System</td>
+					<td> 
+					</td>
+					<td></td>
+					<td></td>
+					<td> </td>
+					<td></td>
+					<td></td>
+					<td><a href="http://" title=""></a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas State Technical College-East Williamson</td>
+					<td>Texas State Technical College System</td>
+					<td> 
+					</td>
+					<td></td>
+					<td></td>
+					<td> </td>
+					<td></td>
+					<td></td>
+					<td><a href="http://" title=""></a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas State Technical College-Fort Bend</td>
+					<td>Texas State Technical College System</td>
+					<td>26706 Southwest Freeway 
+					</td>
+					<td>Rosenberg</td>
+					<td>77471</td>
+					<td> </td>
+					<td></td>
+					<td></td>
+					<td><a href="http://" title=""></a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas State Technical College-Harlingen</td>
+					<td>Texas State Technical College System</td>
+					<td>1902 North Loop 499 
+					</td>
+					<td>Harlingen</td>
+					<td>78550-3697</td>
+					<td>Stella Garcia</td>
+					<td>Interim President</td>
+					<td>(956) 364-4000</td>
+					<td><a href="http://www.tstc.edu/campuses/harlingen" title="www.tstc.edu/campuses/harlingen">www.tstc.edu/campuses/harlingen</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas State Technical College-Marshall</td>
+					<td>Texas State Technical College System</td>
+					<td>2400 East End Boulevard South 
+					</td>
+					<td>Marshall</td>
+					<td>75670</td>
+					<td>Barton Day</td>
+					<td>Interim President</td>
+					<td>(903) 935-1010</td>
+					<td><a href="http://www.marshall.tstc.edu" title="www.marshall.tstc.edu">www.marshall.tstc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas State Technical College-North Texas</td>
+					<td>Texas State Technical College System</td>
+					<td>119 North Lowrance 
+					</td>
+					<td>Red Oak</td>
+					<td>75154</td>
+					<td> </td>
+					<td></td>
+					<td></td>
+					<td><a href="http://" title=""></a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas State Technical College-Waco</td>
+					<td>Texas State Technical College System</td>
+					<td>3801 Campus Drive 
+					</td>
+					<td>Waco</td>
+					<td>76705</td>
+					<td>Rob Wolaver</td>
+					<td>Interim President</td>
+					<td>(254) 799-3611</td>
+					<td><a href="http://www.waco.tstc.edu" title="www.waco.tstc.edu">www.waco.tstc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas State Technical College-West Texas</td>
+					<td>Texas State Technical College System</td>
+					<td>300 Homer K. Taylor Drive 
+					</td>
+					<td>Sweetwater</td>
+					<td>79556-3697</td>
+					<td>Kyle Smith</td>
+					<td>Interim President</td>
+					<td>(325) 235-7300</td>
+					<td><a href="http://www.westtexas.tstc.edu" title="www.westtexas.tstc.edu">www.westtexas.tstc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas State University</td>
+					<td>Texas State University System</td>
+					<td>601 University Drive 
+					</td>
+					<td>San Marcos</td>
+					<td>78666</td>
+					<td>Kelly Damphousse</td>
+					<td>President</td>
+					<td>(512) 245-2111</td>
+					<td><a href="http://www.txstate.edu" title="www.txstate.edu">www.txstate.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas Tech University</td>
+					<td>Texas Tech University System</td>
+					<td>2500 Broadway 
+					</td>
+					<td>Lubbock</td>
+					<td>79409</td>
+					<td>Lawrence Schovanec</td>
+					<td>President</td>
+					<td>(806) 742-2011</td>
+					<td><a href="http://www.ttu.edu" title="www.ttu.edu">www.ttu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas Tech University Health Sciences Center</td>
+					<td>Texas Tech University System</td>
+					<td>3601 4th Street 
+					</td>
+					<td>Lubbock</td>
+					<td>79430</td>
+					<td>Lori Rice-Spearman</td>
+					<td>President</td>
+					<td>(806) 743-1000</td>
+					<td><a href="http://www.ttuhsc.edu" title="www.ttuhsc.edu">www.ttuhsc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas Tech University Health Sciences Center - El Paso</td>
+					<td>Texas Tech University System</td>
+					<td>5001 El Paso Drive 
+					</td>
+					<td>El Paso</td>
+					<td>79905</td>
+					<td>Richard Lange</td>
+					<td>President</td>
+					<td>(915) 783-5510</td>
+					<td><a href="http://elpaso.ttuhsc.edu/" title="elpaso.ttuhsc.edu/">elpaso.ttuhsc.edu/</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas Tech University SCHOOL of Veterinary Medicine</td>
+					<td>Texas Tech University System</td>
+					<td> 
+					</td>
+					<td></td>
+					<td></td>
+					<td> </td>
+					<td></td>
+					<td></td>
+					<td><a href="http://" title=""></a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas Wesleyan University</td>
+					<td></td>
+					<td>1201 Wesleyan Street 
+					</td>
+					<td>Fort Worth</td>
+					<td>76105-0010</td>
+					<td>Frederick Slabach</td>
+					<td>President</td>
+					<td>(817) 531-4422</td>
+					<td><a href="http://www.txwes.edu" title="www.txwes.edu">www.txwes.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Texas Woman's University</td>
+					<td></td>
+					<td>304 Administration Drive 
+					</td>
+					<td>Denton</td>
+					<td>76204-5589</td>
+					<td>Carine M. Feyten</td>
+					<td>Chancellor/President</td>
+					<td>(940) 898-3201</td>
+					<td><a href="http://www.twu.edu" title="www.twu.edu">www.twu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas at Arlington</td>
+					<td>The University of Texas System</td>
+					<td>701 S. Nedderman Drive 
+					</td>
+					<td>Arlington</td>
+					<td>76019</td>
+					<td>Jennifer Crowley</td>
+					<td>President</td>
+					<td>(817) 272-2011</td>
+					<td><a href="http://www.uta.edu" title="www.uta.edu">www.uta.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas at Austin</td>
+					<td>The University of Texas System</td>
+					<td>University Station 
+					</td>
+					<td>Austin</td>
+					<td>78712</td>
+					<td>Jay C. Hartzell</td>
+					<td>Interim President</td>
+					<td>(512) 471-3434</td>
+					<td><a href="http://www.utexas.edu" title="www.utexas.edu">www.utexas.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas at Austin Dell Medical School</td>
+					<td>The University of Texas System</td>
+					<td>1912 Speedway Suite SZB
+					</td>
+					<td>Austin</td>
+					<td>78712</td>
+					<td>Clay Johnston</td>
+					<td>Vice President</td>
+					<td></td>
+					<td><a href="http://" title=""></a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas at Dallas</td>
+					<td>The University of Texas System</td>
+					<td>800 West Campbell Road 
+					</td>
+					<td>Richardson</td>
+					<td>75080-3021</td>
+					<td>Richard C. Benson</td>
+					<td>President</td>
+					<td>(972) 883-2111</td>
+					<td><a href="http://www.utdallas.edu" title="www.utdallas.edu">www.utdallas.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas at El Paso</td>
+					<td>The University of Texas System</td>
+					<td>500 West University Avenue 
+					</td>
+					<td>El Paso</td>
+					<td>79968</td>
+					<td>Heather Wilson</td>
+					<td>President</td>
+					<td>(915) 747-5000</td>
+					<td><a href="http://www.utep.edu" title="www.utep.edu">www.utep.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas at San Antonio</td>
+					<td>The University of Texas System</td>
+					<td>One UTSA Circle 
+					</td>
+					<td>San Antonio</td>
+					<td>78249-0601</td>
+					<td>Taylor Eighmy</td>
+					<td>President</td>
+					<td>(210) 458-4011</td>
+					<td><a href="http://www.utsa.edu" title="www.utsa.edu">www.utsa.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas at Tyler</td>
+					<td>The University of Texas System</td>
+					<td>3900 University Boulevard 
+					</td>
+					<td>Tyler</td>
+					<td>75799</td>
+					<td>Julie V. Philley</td>
+					<td>President</td>
+					<td>(903) 566-7000</td>
+					<td><a href="http://www.uttyler.edu" title="www.uttyler.edu">www.uttyler.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas Health Science Center at Houston</td>
+					<td>The University of Texas System</td>
+					<td>7000 Fannin; Ste. 1200 
+					</td>
+					<td>Houston</td>
+					<td>77080</td>
+					<td>Giuseppe N. Colasurdo</td>
+					<td>President</td>
+					<td>(713) 500-4472</td>
+					<td><a href="http://www.uth.tmc.edu" title="www.uth.tmc.edu">www.uth.tmc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas Health Science Center at San Antonio</td>
+					<td>The University of Texas System</td>
+					<td>7703 Floyd Curl Drive 
+					</td>
+					<td>San Antonio</td>
+					<td>78229-3900</td>
+					<td>Robert A. Hromas</td>
+					<td>Interim President</td>
+					<td>(210) 567-7000</td>
+					<td><a href="http://www.uthscsa.edu" title="www.uthscsa.edu">www.uthscsa.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas Health Science Center at Tyler</td>
+					<td>The University of Texas System</td>
+					<td>11937 U.S. Highway 271 North 
+					</td>
+					<td>Tyler</td>
+					<td>75708-3154</td>
+					<td>Kirk A. Calhoun</td>
+					<td>President</td>
+					<td>(903) 877-3451</td>
+					<td><a href="http://www.uthct.edu" title="www.uthct.edu">www.uthct.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas M.D. Anderson Cancer Center</td>
+					<td>The University of Texas System</td>
+					<td>1515 Holcombe Boulevard 
+					</td>
+					<td>Houston</td>
+					<td>77030-4009</td>
+					<td>Peter W.T. Pisters</td>
+					<td>President</td>
+					<td>(713) 745-1205</td>
+					<td><a href="http://www.mdanderson.org/healthsciences" title="www.mdanderson.org/healthsciences">www.mdanderson.org/healthsciences</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas Medical Branch at Galveston</td>
+					<td>The University of Texas System</td>
+					<td>301 University Boulevard 
+					</td>
+					<td>Galveston</td>
+					<td>77555-1305</td>
+					<td>Charles Mouton</td>
+					<td>Interim President</td>
+					<td>(409) 772-1902</td>
+					<td><a href="http://www.utmb.edu" title="www.utmb.edu">www.utmb.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas Permian Basin</td>
+					<td>The University of Texas System</td>
+					<td>4901 East University 
+					</td>
+					<td>Odessa</td>
+					<td>79762</td>
+					<td>Sandra K. Woodley</td>
+					<td>President</td>
+					<td>(432) 552-2020</td>
+					<td><a href="http://www.utpb.edu" title="www.utpb.edu">www.utpb.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas Rio Grande Valley</td>
+					<td>The University of Texas System</td>
+					<td>1201 West University Drive 
+					</td>
+					<td>Edinburg</td>
+					<td>78541</td>
+					<td>Guy Bailey</td>
+					<td>President</td>
+					<td>(956) 381-2011</td>
+					<td><a href="http://www.utrgv.edu" title="www.utrgv.edu">www.utrgv.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas Rio Grande Valley - Medical School</td>
+					<td>The University of Texas System</td>
+					<td>2102 Treasure Hills Boulevard Suite 2.112
+					</td>
+					<td>Harlingen</td>
+					<td>78550</td>
+					<td>Guy Bailey</td>
+					<td>President</td>
+					<td></td>
+					<td><a href="http://" title=""></a></td>
+				</tr>
+			
+				<tr>
+					<td>The University of Texas Southwestern Medical Center</td>
+					<td>The University of Texas System</td>
+					<td>5323 Harry Hines Boulevard 
+					</td>
+					<td>Dallas</td>
+					<td>75390-9096</td>
+					<td>Daniel K. Podolsky</td>
+					<td>President</td>
+					<td>(214) 648-3111</td>
+					<td><a href="http://www.utsouthwestern.edu/student" title="www.utsouthwestern.edu/student">www.utsouthwestern.edu/student</a></td>
+				</tr>
+			
+				<tr>
+					<td>Trinity University</td>
+					<td></td>
+					<td>One Trinity Place 
+					</td>
+					<td>San Antonio</td>
+					<td>78212</td>
+					<td>Vanessa Beasley</td>
+					<td>President</td>
+					<td>(210) 999-8401</td>
+					<td><a href="http://www.trinity.edu" title="www.trinity.edu">www.trinity.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Trinity Valley Community College</td>
+					<td></td>
+					<td>100 Cardinal Drive 
+					</td>
+					<td>Athens</td>
+					<td>75751</td>
+					<td>Jason Morrison</td>
+					<td>President</td>
+					<td>(903) 677-8822</td>
+					<td><a href="http://www.tvcc.edu" title="www.tvcc.edu">www.tvcc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Tyler Junior College</td>
+					<td></td>
+					<td>P.O. Box 9020 
+					</td>
+					<td>Tyler</td>
+					<td>75711</td>
+					<td>Juan Mejia</td>
+					<td>President</td>
+					<td>(903) 510-2200</td>
+					<td><a href="http://www.tjc.edu" title="www.tjc.edu">www.tjc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>University of Dallas</td>
+					<td></td>
+					<td>1845 E. Northgate Dr. 
+					</td>
+					<td>Irving</td>
+					<td>75062-4799</td>
+					<td>Jonathan Sanford</td>
+					<td>President</td>
+					<td>(972) 721-5203</td>
+					<td><a href="http://www.udallas.edu" title="www.udallas.edu">www.udallas.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>University of Houston</td>
+					<td>University of Houston System</td>
+					<td>4800 Calhoun Road 
+					</td>
+					<td>Houston</td>
+					<td>77204</td>
+					<td>Renu Khator</td>
+					<td>President</td>
+					<td>(713) 743-8820</td>
+					<td><a href="http://www.uh.edu" title="www.uh.edu">www.uh.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>University of Houston College of Medicine</td>
+					<td>University of Houston System</td>
+					<td>Health Building 2 4849 Calhoun Road, Room 6013
+					</td>
+					<td>Houston</td>
+					<td>77204-6064</td>
+					<td> </td>
+					<td></td>
+					<td>(713) 743-7047</td>
+					<td><a href="http://www.uh.edu/medicine/" title="www.uh.edu/medicine/">www.uh.edu/medicine/</a></td>
+				</tr>
+			
+				<tr>
+					<td>University of Houston-Clear Lake</td>
+					<td>University of Houston System</td>
+					<td>2700 Bay Area Boulevard 
+					</td>
+					<td>Houston</td>
+					<td>77058-1098</td>
+					<td>Richard Walker</td>
+					<td>Interim President</td>
+					<td>(281) 283-7600</td>
+					<td><a href="http://www.uhcl.edu" title="www.uhcl.edu">www.uhcl.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>University of Houston-Downtown</td>
+					<td>University of Houston System</td>
+					<td>One Main Street 
+					</td>
+					<td>Houston</td>
+					<td>77002</td>
+					<td>Loren J. Blanchard</td>
+					<td>President</td>
+					<td>(713) 221-8000</td>
+					<td><a href="http://www.uhd.edu" title="www.uhd.edu">www.uhd.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>University of Mary Hardin-Baylor</td>
+					<td></td>
+					<td>900 College Street 
+					</td>
+					<td>Belton</td>
+					<td>76513</td>
+					<td>Randy O' Rear</td>
+					<td>President</td>
+					<td>(254) 295-4501</td>
+					<td><a href="http://www.umhb.edu" title="www.umhb.edu">www.umhb.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>University of North Texas</td>
+					<td>University of North Texas System</td>
+					<td>1155 Union Circle #311277 
+					</td>
+					<td>Denton</td>
+					<td>76203</td>
+					<td>Harrison Keller</td>
+					<td>President</td>
+					<td>(940) 565-2000</td>
+					<td><a href="http://www.unt.edu" title="www.unt.edu">www.unt.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>University of North Texas at Dallas</td>
+					<td>University of North Texas System</td>
+					<td>7300 University Hills Boulevard 
+					</td>
+					<td>Dallas</td>
+					<td>75241</td>
+					<td>Warren Von Eschenbach</td>
+					<td>Interim President</td>
+					<td>(972) 780-3602</td>
+					<td><a href="http://www.unt.edu/unt-dallas/" title="www.unt.edu/unt-dallas/">www.unt.edu/unt-dallas/</a></td>
+				</tr>
+			
+				<tr>
+					<td>University of North Texas Health Science Center</td>
+					<td>University of North Texas System</td>
+					<td>3500 Camp Bowie Boulevard 
+					</td>
+					<td>Fort Worth</td>
+					<td>76107-2690</td>
+					<td>Michael R. Williams</td>
+					<td>President</td>
+					<td>(817) 735-2000</td>
+					<td><a href="http://www.unthsc.edu/" title="www.unthsc.edu/">www.unthsc.edu/</a></td>
+				</tr>
+			
+				<tr>
+					<td>University of St. Thomas</td>
+					<td></td>
+					<td>3800 Montrose Boulevard 
+					</td>
+					<td>Houston</td>
+					<td>77006</td>
+					<td>Richard Ludwick</td>
+					<td>President</td>
+					<td>(713) 525-2160</td>
+					<td><a href="http://www.stthom.edu" title="www.stthom.edu">www.stthom.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>University of the Incarnate Word</td>
+					<td></td>
+					<td>4301 Broadway, CPO # 303 
+					</td>
+					<td>San Antonio</td>
+					<td>78209</td>
+					<td>Thomas Evans</td>
+					<td>President</td>
+					<td>(210) 829-3900</td>
+					<td><a href="http://www.uiw.edu" title="www.uiw.edu">www.uiw.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>UNT Dallas College of Law</td>
+					<td>University of North Texas System</td>
+					<td>1901 Main Street 
+					</td>
+					<td>Dallas</td>
+					<td>78501</td>
+					<td>Royal Furgeson</td>
+					<td>Dean</td>
+					<td>(214)752-3232</td>
+					<td><a href="http://lawschool.untdallas.edu" title="lawschool.untdallas.edu">lawschool.untdallas.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Vernon College</td>
+					<td></td>
+					<td>4400 College Drive 
+					</td>
+					<td>Vernon</td>
+					<td>76384</td>
+					<td>Dusty Johnston</td>
+					<td>President</td>
+					<td>(940) 552-6291</td>
+					<td><a href="http://www.vernoncollege.edu" title="www.vernoncollege.edu">www.vernoncollege.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Victoria College</td>
+					<td></td>
+					<td>2200 East Red River 
+					</td>
+					<td>Victoria</td>
+					<td>77901</td>
+					<td>Jennifer Kent</td>
+					<td>President</td>
+					<td>(361) 573-3291</td>
+					<td><a href="http://www.victoriacollege.edu" title="www.victoriacollege.edu">www.victoriacollege.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Wayland Baptist University</td>
+					<td></td>
+					<td>1900 W. 7th Street 
+					</td>
+					<td>Plainview</td>
+					<td>79072-6998</td>
+					<td>Donna Hedgepath</td>
+					<td>President</td>
+					<td>(806) 291-3400</td>
+					<td><a href="http://www.wbu.edu" title="www.wbu.edu">www.wbu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Weatherford College</td>
+					<td></td>
+					<td>225 College Park Drive 
+					</td>
+					<td>Weatherford</td>
+					<td>76086</td>
+					<td>Tod A. Farmer</td>
+					<td>President</td>
+					<td>(817) 594-5471</td>
+					<td><a href="http://www.wc.edu" title="www.wc.edu">www.wc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>West Texas A&M University</td>
+					<td>Texas A&M University System</td>
+					<td>2501 4th Avenue 
+					</td>
+					<td>Canyon</td>
+					<td>79016</td>
+					<td>Walter Wendler</td>
+					<td>President</td>
+					<td>(806) 651-2000</td>
+					<td><a href="http://www.wtamu.edu" title="www.wtamu.edu">www.wtamu.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Western Texas College</td>
+					<td></td>
+					<td>6200 College Avenue 
+					</td>
+					<td>Snyder</td>
+					<td>79549</td>
+					<td>Barbara Beebe</td>
+					<td>President</td>
+					<td>(325) 573-8511</td>
+					<td><a href="http://www.wtc.edu" title="www.wtc.edu">www.wtc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Wharton County Junior College</td>
+					<td></td>
+					<td>911 Boling Highway 
+					</td>
+					<td>Wharton</td>
+					<td>77488</td>
+					<td>Betty A. McCrohan</td>
+					<td>President</td>
+					<td>(979) 532-4560</td>
+					<td><a href="http://www.wcjc.edu" title="www.wcjc.edu">www.wcjc.edu</a></td>
+				</tr>
+			
+				<tr>
+					<td>Wiley University</td>
+					<td></td>
+					<td>711 Wiley Avenue 
+					</td>
+					<td>Marshall</td>
+					<td>75670-5199</td>
+					<td>Herman J. Felton, Jr.</td>
+					<td>President</td>
+					<td>(903) 927-3200</td>
+					<td><a href="http://www.wileyc.edu" title="www.wileyc.edu">www.wileyc.edu</a></td>
+				</tr>
+			
+		</table>
+	
