@@ -4,6 +4,10 @@ import pandas as pd
 import os
 import requests
 import sqlite3
+import os                                                                                                                                                                                                          
+from dotenv import load_dotenv, find_dotenv
+from pathlib import Path
+load_dotenv(Path(r"C:\Users\cmg0530\Projects\cip_soc_crosswalk\.env"))
 
 #%%helpers for the download data file
 def create_cursor(spath):
@@ -223,12 +227,10 @@ def make_table_spatial(crsr, con, geometry_type=None, wkt_col='geom_wkt',geometr
     except sqlite3.OperationalError as e:
         print(f"Note: Could not create spatial index - {e}")
 
-
 #%% spatial helpers with google maps
-
 def google_maps_geocode(address: str) -> tuple:
     base_url = "https://maps.googleapis.com/maps/api/geocode/json"
-    api_key = "AIzaSyBOpbFJiufMf58LGcy9uJVGOXmuOpGERkg"
+    api_key = os.getenv("MAPS_API_KEY")
     params = {
         'address': address,
         'key': api_key
@@ -300,160 +302,3 @@ def geocode_thecb_addresses(parsed_dict) -> dict:
                 zipcode=parsed_dict[key]['Zip Code'])
         geocodes[key] = lat_lng
     return geocodes
-
-def clean_up(geocodes,parsed_dict)->dict:
-    #get those that have no matches and fix the addresses using the parsed dict
-    checks = []
-    for q in geocodes_v2.keys():
-        if geocodes_v2[q] == (0,0):
-            checks.append(q)
-    revised_parsed_dict = {}
-    for q in checks:
-        revised_parsed_dict[q] = f_parsed_dict[q]
-    #manual edit
-    f_parsed_dict = {'nan': {'streetAddress': 'nan', 'City': 'nan', 'Zip Code': 'nan', 'State': 'Texas'},
- 'Abilene Christian University': {'streetAddress': ' 1600 Campus Ct',
-  'City': 'Abilene',
-  'Zip Code': '79601',
-  'State': 'Texas'},
- 'Amarillo College': {'streetAddress': '2201 S Washington St',
-  'City': 'Amarillo',
-  'Zip Code': '79109',
-  'State': 'Texas'},
- 'Baylor University': {'streetAddress': '1311 S 5th St',
-  'City': 'Waco',
-  'Zip Code': '76706',
-  'State': 'Texas'},
- 'College of Biblical Studies': {'streetAddress': '7000 Regency Square Blvd',
-  'City': 'Houston',
-  'Zip Code': '77036',
-  'State': 'Texas'},
- 'Dallas College Brookhaven Campus': {'streetAddress': '3939 Valley View Lane',
-  'City': 'Farmers Branch',
-  'Zip Code': '75244-4906',
-  'State': 'Texas'},
- 'East Texas Baptist University': {'streetAddress': '1 Tiger Drive',
-  'City': 'Marshall',
-  'Zip Code': '75670',
-  'State': 'Texas'},
- 'El Paso Community College District': {'streetAddress': '100 W Rio Grande Ave',
-  'City': 'El Paso',
-  'Zip Code': '79902',
-  'State': 'Texas'},
- 'Frank Phillips College': {'streetAddress': '1301 Roosevelt St',
-  'City': 'Borger',
-  'Zip Code': '79007',
-  'State': 'Texas'},
- 'Hardin-Simmons University': {'streetAddress': '2200 Hickory St',
-  'City': 'Abilene',
-  'Zip Code': '79601',
-  'State': 'Texas'},
- 'Houston City College - Northeast Campus': {'streetAddress': '555 Community College Dr',
-  'City': 'Houston',
-  'Zip Code': '77013',
-  'State': 'Texas'},
- 'Jarvis Christian University': {'streetAddress': '80 Private Road 7631',
-  'City': 'Hawkins',
-  'Zip Code': '75765',
-  'State': 'Texas'},
- 'Lamar University': {'streetAddress': '4400 Martin L King Pkwy',
-  'City': 'Beaumont',
-  'Zip Code': '77705',
-  'State': 'Texas'},
- 'Laredo College': {'streetAddress': '1947 Lamar Rd',
-  'City': 'Laredo',
-  'Zip Code': '78040-4395',
-  'State': 'Texas'},
- 'Lone Star College - University Park': {'streetAddress': '20515 TX-249 S',
-  'City': 'Houston',
-  'Zip Code': '77070',
-  'State': 'Texas'},
- 'Northeast Texas Community College': {'streetAddress': '2886 FM 1735',
-  'City': 'Mount Pleasant',
-  'Zip Code': '75455',
-  'State': 'Texas'},
- 'Prairie View A&M University': {'streetAddress': '100 University Dr',
-  'City': 'Prairie View',
-  'Zip Code': '77446',
-  'State': 'Texas'},
- 'Sam Houston State University College of Osteopathic Medicine': {'streetAddress': '925 City Central Ave',
-  'City': 'Conroe',
-  'Zip Code': '77304',
-  'State': 'Texas'},
- 'SHSU Polytechnic College': {'streetAddress': 'nan',
-  'City': 'nan',
-  'Zip Code': 'nan',
-  'State': 'Texas'},
- 'Southwestern Christian College': {'streetAddress': '200 Bowser Cir',
-  'City': 'Terrell',
-  'Zip Code': '75160',
-  'State': 'Texas'},
- 'Sul Ross State University': {'streetAddress': '300 Centennial Dr',
-  'City': 'Alpine',
-  'Zip Code': '79830',
-  'State': 'Texas'},
- 'Sul Ross State University Rio Grande College': {'streetAddress': '3107 Bob Rogers Dr',
-  'City': 'Eagle Pass',
-  'Zip Code': '78852',
-  'State': 'Texas'},
- 'Texas A&M Health Science Center': {'streetAddress': '8441 John Sharp Pkwy',
-  'City': 'Bryan',
-  'Zip Code': '77807',
-  'State': 'Texas'},
- 'Texas A&M University': {'streetAddress': '400 Bizzell St',
-  'City': 'College Station',
-  'Zip Code': '77840',
-  'State': 'Texas'},
- 'Texas A&M University at Galveston': {'streetAddress': '200 Seawolf Pkwy',
-  'City': 'Galveston',
-  'Zip Code': '77554',
-  'State': 'Texas'},
- 'Texas Southmost College': {'streetAddress': '80 Ft Brown St',
-  'City': 'Brownsville',
-  'Zip Code': '78520',
-  'State': 'Texas'},
- 'Texas State Technical College-CONNECT': {'streetAddress': 'nan',
-  'City': 'nan',
-  'Zip Code': 'nan',
-  'State': 'Texas'},
- 'Texas State Technical College-East Williamson': {'streetAddress': '1600 Innovation Blvd',
-  'City': 'Hutto',
-  'Zip Code': '78634',
-  'State': 'Texas'},
- 'Texas State Technical College-Harlingen': {'streetAddress': '21 Ash St',
-  'City': 'Harlingen',
-  'Zip Code': '78550-3697',
-  'State': 'Texas'},
- 'Texas State Technical College-Marshall': {'streetAddress': '2650 E End Blvd S',
-  'City': 'Marshall',
-  'Zip Code': '75672',
-  'State': 'Texas'},
- 'Texas Tech University SCHOOL of Veterinary Medicine': {'streetAddress': '7671 Evans Dr',
-  'City': 'Amarillo',
-  'Zip Code': '79106',
-  'State': 'Texas'},
- 'The University of Texas at Austin': {'streetAddress': '2515 Speedway Dr',
-  'City': 'Austin',
-  'Zip Code': '78712',
-  'State': 'Texas'},
- 'Tyler Junior College': {'streetAddress': '1400 E 5th St',
-  'City': 'Tyler',
-  'Zip Code': '75701',
-  'State': 'Texas'},
- 'University of Houston College of Medicine': {'streetAddress': '5055 Medical Cir',
-  'City': 'Houston',
-  'Zip Code': '77204',
-  'State': 'Texas'},
- 'University of the Incarnate Word': {'streetAddress': '4301 Broadway',
-  'City': 'San Antonio',
-  'Zip Code': '78209',
-  'State': 'Texas'},
- 'Victoria College': {'streetAddress': '2200 E Red River St',
-  'City': 'Victoria',
-  'Zip Code': '77901',
-  'State': 'Texas'}}
-
-    return revised_parsed_dict
-
-geocodes_v2 = geocode_thecb_addresses(f_parsed_dict)
-f_parsed_dict_v2 = clean_up(geocodes_v2,f_parsed_dict)

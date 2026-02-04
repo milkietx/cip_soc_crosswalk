@@ -1,7 +1,8 @@
-# Ignore all sqlite files
+# Ignore sqlite and env files
 *.sqlite
-*.apikey
+*.env
 
 # Ignore databases folder
 Databases
+
 
