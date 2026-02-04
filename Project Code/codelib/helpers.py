@@ -7,6 +7,8 @@ import sqlite3
 import os                                                                                                                                                                                                          
 from dotenv import load_dotenv, find_dotenv
 from pathlib import Path
+import sqlite3
+import pandas as pd
 load_dotenv(Path(r"C:\Users\cmg0530\Projects\cip_soc_crosswalk\.env"))
 
 #%%helpers for the download data file
@@ -168,7 +170,7 @@ def upload_to_sqlite(
     print("Done!")
 
 def make_table_spatial(crsr, con, geometry_type=None, wkt_col='geom_wkt',geometry_column='geometry',
-                       srid='3857',
+                       srid=4326,
                        table_name="test__", schema="dbo"):
     """
     chunk_print_size = number of rows to print count when uploading
@@ -178,6 +180,7 @@ def make_table_spatial(crsr, con, geometry_type=None, wkt_col='geom_wkt',geometr
     print(f"Making it spatial on column {wkt_col}")
 
     #initalize if not already
+    con.execute("SELECT load_extension('mod_spatialite')")
     crsr = con.cursor()
     crsr.execute("SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name='spatial_ref_sys'")
     if crsr.fetchone()[0] == 0:
@@ -253,6 +256,107 @@ def google_maps_geocode(address: str) -> tuple:
     except (KeyError, IndexError) as e:
         return None, None, f'PARSE_ERROR: {str(e)}'
     
+#%% build spatial files into database
+
+def get_all_files_os_walk(directory_path: str)-> list:
+    file_list = []
+    for root, _, files in os.walk(directory_path):
+        for file in files:
+            # Construct the full file path
+            full_path = os.path.join(root, file)
+            file_list.append(full_path)
+    return file_list
+
+def unzip_gis_files(folder:str,out_folder:str):
+    import zipfile
+    fps = get_all_files_os_walk(folder)
+    pdict = {}
+    for z in fps:
+        n = z.split('2020_')[-1].split(".zip")[0]
+        pdict[n] = z
+    #unzip to new folder
+    for fn in pdict.keys():
+        print(fn)
+        with zipfile.ZipFile(pdict[fn], 'r') as zip_ref:
+            zip_ref.extractall(os.path.join(out_folder,f"{fn}"))
+
+def bulk_reproject_gis_files(folder:str,outfolder:str,new_crs:int)->str:
+    import geopandas as gpd
+    
+    #check if output exists
+    if not os.path.exists(outfolder):
+        os.makedirs(outfolder)
+        
+    #read in files from folder that contains everything you want reprojected
+    file_list = []
+    for root, _, files in os.walk(folder):
+        for file in files:
+            # Construct the full file path
+            full_path = os.path.join(root, file)
+            if full_path.endswith(".shp"):
+                file_list.append(full_path)
+
+    #loop through and reproject everything and save back to disk
+    for x in file_list:
+        print(f"{x.split("\\")[-1]}")
+        f_in = gpd.read_file(x)
+        f_out = f_in.copy()
+        f_out = f_out.to_crs(f"EPSG:{new_crs}")
+        f_out.to_file(os.path.join(outfolder,x.split("\\")[-1]))
+
+    #return outfolder path
+    return outfolder
+
+
+def generate_bulk_upload_list_from_folder(folder=r"C:\Users\cmg0530\Projects\cip_soc_crosswalk\Data Downloads\Spatial Data\NHGIS\GIS Data\Reprojected") -> list:
+    fold = [x[0] for x in os.walk(folder)][0]
+    fl =  [x[2] for x in os.walk(folder)][0]
+    bulk_upload_file_list = [os.path.join(fold,q) for q in fl if q.endswith(".shp")]
+    return bulk_upload_file_list
+
+
+def bulk_upload_to_sqlite(bulk_upload_file_list:str, db_path:str,schema:str):
+    import geopandas as gpd
+    from shapely.geometry.polygon import Polygon
+    from shapely.geometry.multipolygon import MultiPolygon
+
+    for x in bulk_upload_file_list:
+        #read in file and convert geometry to geom_wkt
+        print(x)
+        tf = gpd.read_file(x)
+        crs = tf.geometry.crs.to_epsg()
+        try:
+            tf["geometry"] = [MultiPolygon([feature]) if isinstance(feature, Polygon) else feature for feature in tf["geometry"]]
+        except:
+            print("Not a polygon or multipolygon shape")
+        tf['geom_wkt'] = tf.apply(lambda x: x['geometry'].wkt,axis=1)
+        tf = tf.drop(columns=['geometry'])
+
+        #table name
+        title = x.split("\\")[-1][0:-4]
+
+        #upload to sqlite 
+        con = create_conn(db_path)
+        upload_to_sqlite(con.cursor(),
+                         con,
+                         tf,
+                         title,
+                         schema,
+                         drop=True,
+                         chunk_print_size=5000)
+
+        #make spatial in sqlite
+        make_table_spatial(con.cursor(), 
+                       con,
+                       wkt_col='geom_wkt',
+                       geometry_column='geometry',
+                       srid=crs,
+                       table_name=title, 
+                       schema=schema)
+    
+
+
+
 
 #%% spatial helpers
 def geocode(street_address,city,state,zipcode):
