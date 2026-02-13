@@ -121,11 +121,12 @@ def upload_to_sqlite(
 
     # adjust formatting
     for x in columns:
-        df[x] = df[x].astype(str)
-        # adjust datetime
-        if x in df.select_dtypes(include=["datetime64[ns, UTC]"]).columns.tolist():
-            df[x] = df[x].dt.strftime("%Y-%m-%d")
-        df[x] = df[x].str.replace(',', ' ')
+        if x not in ['geom_wkt','wkt_geom']:
+            df[x] = df[x].astype(str)
+            # adjust datetime
+            if x in df.select_dtypes(include=["datetime64[ns, UTC]"]).columns.tolist():
+                df[x] = df[x].dt.strftime("%Y-%m-%d")
+            df[x] = df[x].str.replace(',', ' ')
 
     # if the drop parameter is True, then drop the existing table
     if drop == True:
@@ -139,16 +140,16 @@ def upload_to_sqlite(
             print("No existing table to drop.")
             print(f"Exception: {e}")
 
-        try:
-            print("Creating new sql table...")
-            crsr.execute(
-                fr"""CREATE TABLE IF NOT EXISTS {schema}_{table_name}(
-                {",".join(format_columns)});""")
-            con.commit()
-            print("Done.")
-        except Exception as e:
-            print("Could not create new table.")
-            print(f"Exception: {e}")
+    try:
+        print("Creating new sql table...")
+        crsr.execute(
+            fr"""CREATE TABLE IF NOT EXISTS {schema}_{table_name}(
+            {",".join(format_columns)});""")
+        con.commit()
+        print("Done.")
+    except Exception as e:
+        print("Could not create new table.")
+        print(f"Exception: {e}")
 
     print(f"Writing in {len(df)} rows.")
 
@@ -160,7 +161,7 @@ def upload_to_sqlite(
             crsr.execute(
                 f"""INSERT INTO {schema}_{table_name}
             ({",".join(columns)}) values ({",".join(["?"] * len(columns))})""",
-                [x.replace(","," ") for x in row[1:].tolist()],
+                [x for x in row[1:].tolist()],
             )
         except Exception as e:
             print(f"Could not upload {index}")
@@ -269,7 +270,7 @@ def get_all_files_os_walk(directory_path: str)-> list:
 
 def unzip_gis_files(folder:str,out_folder:str):
     import zipfile
-    fps = get_all_files_os_walk(folder)
+    fps = get_all_files_os_walk(directory_path=folder)
     pdict = {}
     for z in fps:
         n = z.split('2020_')[-1].split(".zip")[0]

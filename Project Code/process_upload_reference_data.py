@@ -9,7 +9,7 @@ import os
 
 def main():
     #files downloaded into folder from nhgis
-    folder = r"C:\Users\cmg0530\Projects\cip_soc_crosswalk\Data Downloads\Spatial Data\NHGIS\nhgis0136_shape"
+    folder = r"C:\Users\cmg0530\Projects\cip_soc_crosswalk\Data Downloads\Spatial Data\NHGIS"
     outfolder = r"C:\Users\cmg0530\Projects\cip_soc_crosswalk\Data Downloads\Spatial Data\NHGIS\Unzipped Folders"
     reprojectfolder = r"C:\Users\cmg0530\Projects\cip_soc_crosswalk\Data Downloads\Spatial Data\NHGIS\Reprojected"
     #unzip files
