@@ -27,9 +27,12 @@ def main():
     
     ###tis is where you nede to pick it back up
     for x in files_to_upload:
+        title = x.split("\\")[-1][0:-4]
+        gdf = gpd.read_file(x)
         load_from_gdf(conn=con,
-                  gdf=x,
-                  table_name=f'ref_{name}',
+                  gdf=gdf,
+                  table_name=f'geom_{title}',
                   geom_col_name='geom')
+        
 if __name__ == "__main__":
     main()
