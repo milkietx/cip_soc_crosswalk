@@ -8,7 +8,8 @@ import os
 from dotenv import load_dotenv, find_dotenv
 from pathlib import Path
 import sqlite3
-import pandas as pd
+import duckdb
+import geopandas as gpd
 load_dotenv(Path(r"C:\Users\cmg0530\Projects\cip_soc_crosswalk\.env"))
 
 #%%helpers for the download data file
@@ -407,3 +408,80 @@ def geocode_thecb_addresses(parsed_dict) -> dict:
                 zipcode=parsed_dict[key]['Zip Code'])
         geocodes[key] = lat_lng
     return geocodes
+
+#%%
+#duck db additions
+
+
+def connect_duckdb(filepath,spatial=True):
+    import duckdb
+    import os
+    if os.path.exists(filepath):
+        print(f"Creating database at {filepath}")
+        conn = duckdb.connect(filepath)
+        conn.install_extension('spatial')
+    else:
+        conn = duckdb.connect(filepath)
+    conn.load_extension("spatial")
+    return conn
+
+def load_from_df(conn:duckdb.DuckDBPyConnection,
+                  df,
+                  table_name:str,
+                  geom_col_name:str='geom'):
+    #load spatial extension
+    conn.execute("LOAD spatial;")
+
+    conn.register("gdf_view", df)
+    
+    try:
+        conn.execute(f"DROP TABLE {table_name}")
+    except:
+        print("Table is new")
+
+    # Create the table with a proper GEOMETRY column
+    conn.execute(f"""
+        CREATE TABLE {table_name} AS
+        SELECT * 
+        FROM gdf_view""")
+    
+    conn.execute(f"""DROP VIEW gdf_view;""")
+    conn.commit()
+
+def load_from_gdf(conn:duckdb.DuckDBPyConnection,
+                  gdf,
+                  table_name:str,
+                  geom_col_name:str='geom'):
+    #load spatial extension
+    conn.execute("LOAD spatial;")
+
+    # Register the GeoDataFrame as a view, converting geometry to WKB for DuckDB
+    gdf["geom_wkb"] = gdf.geometry.to_wkb()
+    
+    #Get the CRS
+    crs_wkt = gdf.crs.to_wkt()
+    
+    df = gdf.drop(columns="geometry")  # drop original geometry column
+
+    conn.register("gdf_view", df)
+    
+    try:
+        conn.execute(f"DROP TABLE {table_name}")
+    except:
+        print("Table is new")
+    # Create the table with a proper GEOMETRY column
+    conn.execute(f"""
+        CREATE TABLE {table_name} AS
+        SELECT * EXCLUDE (geom_wkb),
+            ST_Transform(
+            ST_GeomFromWKB(geom_wkb),
+            '{crs_wkt}',
+            '{crs_wkt}',
+            always_xy := true
+        ) AS {geom_col_name}
+        FROM gdf_view
+    """)
+
+    conn.execute(f"""DROP VIEW gdf_view;""")
+    conn.commit()
+    
