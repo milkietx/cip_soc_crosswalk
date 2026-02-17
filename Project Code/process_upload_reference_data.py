@@ -23,11 +23,13 @@ def main():
     
     #save one copy in the geometry_reference database
     #save another copy in the sqlite database
-    db_path1 = r'C:\\Users\\cmg0530\\Projects\\cip_soc_crosswalk\\Databases\\geometry_reference.sqlite'
-    db_path2 = r'C:\\Users\\cmg0530\\Projects\\cip_soc_crosswalk\\Databases\\cipsoc.sqlite'
-
-    bulk_upload_to_sqlite(bulk_upload_file_list=files_to_upload, db_path=db_path1,schema='ref')
-    bulk_upload_to_sqlite(bulk_upload_file_list=files_to_upload, db_path=db_path2,schema='ref')
-
+    db_path = r'C:\Users\cmg0530\Projects\cip_soc_crosswalk\Databases\cip_soc_duck.db'
+    
+    ###tis is where you nede to pick it back up
+    for x in files_to_upload:
+        load_from_gdf(conn=con,
+                  gdf=x,
+                  table_name=f'ref_{name}',
+                  geom_col_name='geom')
 if __name__ == "__main__":
     main()

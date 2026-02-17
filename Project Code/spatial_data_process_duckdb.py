@@ -24,34 +24,13 @@ def main():
     con = connect_duckdb(db_path)
     import geopandas as gpd
     gsd = gpd.GeoDataFrame(sd,geometry=gpd.points_from_xy(sd['lon'],sd['lat']),crs='EPSG:4326')
-    gsd['geom_wkt'] = gsd.apply(lambda x: x['geometry'].wkt,axis=1)
-    gsdu = gsd.drop(columns=['geocode_response','geometry'])
+    gsdu = gsd.drop(columns=['geocode_response','Administrative Officer','Administrative Officer Title','Main','Website Address','combined_address','lat','lon'])
 
-
-    #upload table to sqlite
-    upload_to_sqlite(con.cursor(), 
-                    con, 
-                    gsdu, 
-                    table_name="thecb_geocode",
-                    schema="ref", 
-                    drop=True, 
-                    chunk_print_size=1000)
-
-    #make the table spatial
-    make_table_spatial(con.cursor(), 
-                       con,
-                       wkt_col='geom_wkt',
-                       geometry_column='geometry',
-                       srid='3857',
-                       table_name="thecb_geocode", 
-                       schema="ref")
-
-    #build out a final table that looks like:
-        #program - institution - occupation
-    all_df = pd.read_sql("select * from join_program_occupations",con=con)
-    all_df_filt = all_df.query("year == '2023'")
-    all_df_filt.to_excel(r"C:\Users\cmg0530\Projects\cip_soc_crosswalk\Data Downloads\Sample Exports\test.xlsx")
-
+    load_from_gdf(conn=con,
+                  gdf=gsdu,
+                  table_name='ref_thecb_geocode',
+                  geom_col_name='geom')
+    
 if __name__ == "__main__":
     main()
 #%% future or other functions as needed
