@@ -34,5 +34,13 @@ def main():
                   table_name=f'geom_{title}',
                   geom_col_name='geom')
         
+        
+        #testing
+        gdf2 = con.sql("""
+    SELECT *, ST_AsText(geom) as wkt_geom 
+    FROM geom_US_zcta_2020""").df()
+        
+        gdf2 = gpd.GeoDataFrame(gdf2,geometry=gpd.GeoSeries.from_wkt(gdf2['wkt_geom']))
+
 if __name__ == "__main__":
     main()

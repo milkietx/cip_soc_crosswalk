@@ -358,8 +358,6 @@ def bulk_upload_to_sqlite(bulk_upload_file_list:str, db_path:str,schema:str):
     
 
 
-
-
 #%% spatial helpers
 def geocode(street_address,city,state,zipcode):
     #using a&m api service
@@ -453,6 +451,7 @@ def load_from_gdf(conn:duckdb.DuckDBPyConnection,
                   table_name:str,
                   geom_col_name:str='geom'):
     #load spatial extension
+    #add better documenation and try except blocks for error testing
     conn.execute("LOAD spatial;")
 
     # Register the GeoDataFrame as a view, converting geometry to WKB for DuckDB
