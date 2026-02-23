@@ -98,6 +98,27 @@ def map_programs_to_schools(con):
           on thecb.cip_join_key = cip.cip_join_key""")
     con.commit()
 
+def map_programs_to_schools_duckdb(con):
+
+    con.execute("DROP TABLE IF EXISTS join_program_occupations")
+    con.execute("""CREATE TABLE 
+                 join_program_occupations
+                 AS 
+                 select 
+                    thecb.cip_join_key as cip_join_key,
+                    thecb.dimyear as year,
+                    thecb.levelgroupdesc as institution_type,
+                    thecb.instlist as institution,
+                    thecb.cipdesc as cip_description,
+                    thecb.count as grad_count,
+                    cip.soc2018code as soc_code,
+                    cip.soc2018title as soc_title  FROM
+          (SELECT * FROM ref_thecb_data) as thecb
+          left join
+          (SELECT * FROM ref_cip_soc_nces) as cip
+          on thecb.cip_join_key = cip.cip_join_key""")
+    con.commit()
+
 def upload_to_sqlite(
     crsr, con, df, table_name="test__", schema="dbo", drop=True, chunk_print_size=50
 ):
@@ -426,24 +447,25 @@ def connect_duckdb(filepath,spatial=True):
 def load_from_df(conn:duckdb.DuckDBPyConnection,
                   df,
                   table_name:str,
-                  geom_col_name:str='geom'):
+                  drop:bool=False):
     #load spatial extension
     conn.execute("LOAD spatial;")
 
-    conn.register("gdf_view", df)
+    conn.register("df_view", df)
     
-    try:
-        conn.execute(f"DROP TABLE {table_name}")
-    except:
-        print("Table is new")
+    if drop == True:
+        try:
+            conn.execute(f"DROP TABLE {table_name}")
+        except:
+            print("Table is new")
 
     # Create the table with a proper GEOMETRY column
     conn.execute(f"""
         CREATE TABLE {table_name} AS
         SELECT * 
-        FROM gdf_view""")
+        FROM df_view""")
     
-    conn.execute(f"""DROP VIEW gdf_view;""")
+    conn.execute(f"""DROP VIEW df_view;""")
     conn.commit()
 
 def load_from_gdf(conn:duckdb.DuckDBPyConnection,
