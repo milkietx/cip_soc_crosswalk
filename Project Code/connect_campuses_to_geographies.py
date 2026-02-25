@@ -18,7 +18,8 @@ def main():
                 SELECT r."Institution Name", 
                 r."System Name",
                 leg.GISJOIN, 
-                leg.GEOID as COUNTY
+                leg.GEOID as MSA,
+                leg.NAMELSAD as MSA_name
                 FROM ref_thecb_geocode as r
     JOIN geom_US_cbsa_2020 as leg
     on ST_Intersects(r.geom,leg.geom);""")
@@ -28,7 +29,8 @@ def main():
                 SELECT r."Institution Name", 
                 r."System Name",
                 leg.GISJOIN, 
-                leg.GEOID as COUNTY
+                leg.GEOID as COUNTY,
+                leg.NAMELSAD as COUNTY_name
                 FROM ref_thecb_geocode as r
     JOIN geom_US_county_2020 as leg
     on ST_Intersects(r.geom,leg.geom);""")
@@ -38,7 +40,8 @@ def main():
                 SELECT r."Institution Name", 
                 r."System Name",
                 leg.GISJOIN, 
-                leg.GEOID as ST_LEG_LOWER
+                leg.GEOID as ST_LEG_LOWER,
+                leg.NAMELSAD as ST_LEG_LOWER_name
                 FROM ref_thecb_geocode as r
     JOIN geom_US_stleg_up_2020 as leg
     on ST_Intersects(r.geom,leg.geom);""")
@@ -48,15 +51,35 @@ def main():
                 SELECT r."Institution Name", 
                 r."System Name",
                 leg.GISJOIN, 
-                leg.GEOID as ST_LEG_UPPER
+                leg.GEOID as ST_LEG_UPPER,
+                leg.NAMELSAD as ST_LEG_UPPER_name
                 FROM ref_thecb_geocode as r
     JOIN geom_US_stleg_lo_2020 as leg
     on ST_Intersects(r.geom,leg.geom);""")
 
-
-import geopandas as gpd
-a = gpd.read_file(r"C:\Users\cmg0530\Projects\cip_soc_crosswalk\Data Downloads\Spatial Data\NHGIS\Unzipped Folders\us_metdiv_2020\US_metdiv_2020.shp")
+    con.execute("""DROP TABLE if exists xwalk_institution_geography """)
     
+    con.sql("""CREATE TABLE xwalk_institution_geography AS
+            SELECT r."Institution Name", 
+                r."System Name",
+                a.MSA,
+            a.MSA_name,
+                b.COUNTY,
+            b.COUNTY_name,
+                c.ST_LEG_LOWER,
+            c.ST_LEG_LOWER_name,
+                d.ST_LEG_UPPER,
+            d.ST_LEG_UPPER_name,
+            FROM ref_thecb_geocode as r
+            JOIN msa_match as a 
+            ON r."Institution Name" = a."Institution Name"
+            JOIN county_match as b
+            ON r."Institution Name" = b."Institution Name"
+            JOIN lower_leg_match as c
+            ON r."Institution Name" = c."Institution Name"
+            JOIN upper_leg_match as d
+            ON r."Institution Name" = d."Institution Name"
+            """)
+    
+    con.commit()
 
-if __name__ == "__main__":
-    main()

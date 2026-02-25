@@ -12,5 +12,7 @@
             "attached": false
         }
     ],
-    "duckdb.defaultDatabase": "cip_soc_duck"
+    "duckdb.defaultDatabase": "cip_soc_duck",
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda"
 }
