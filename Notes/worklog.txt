@@ -1,3 +1,4 @@
 -build out spatial query (campus-> county/districts)
 -build out skills map logic
 -build out with wage data as well as upload process
+-crate a more reactive cip soc 
